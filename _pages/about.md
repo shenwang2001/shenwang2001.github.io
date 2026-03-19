@@ -69,11 +69,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 <p>arXiv preprint, 2025.</p>
 </li>
 
-<li>
-<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">ICSS 2023</span> Gait Impairment Assessment Service for Community-Dwelling Older Adults</p>
-<p>Xin Hu, Ke Xue, <strong><u>Shen Wang</u></strong>, Deqiong Ding, Dianhui Chu et al.</p>
-<p>In Proc. of ICSS, 2023.</p>
-</li>
+
 </ol>
 
 # 🎖 Honors and Awards
