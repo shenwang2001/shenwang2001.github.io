@@ -57,6 +57,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 - **Gait Impairment Assessment Service for Community-Dwelling Older Adults**  
   Xin Hu, Ke Xue, **<u>Shen Wang</u>**, Deqiong Ding, Dianhui Chu et al.
+  
   **ICSS 2023**
 
 # 🎖 Honors and Awards
