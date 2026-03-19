@@ -22,8 +22,11 @@ redirect_from:
 
 
 # 🔥 News
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON (CCF-B).
+- *2025.12*: &nbsp;🎉🎉 One paper has been accepted at IEEE INFOCOM (CCF-A).
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (CCF-A).
+- *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp (CCF-A).
+- *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (CCF-A).
 
 # 📝 Publications 
 
