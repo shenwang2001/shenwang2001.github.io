@@ -18,16 +18,16 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # 👋 About me
- Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the<a href="https://www.polyu.edu.hk/comp/" target="_blank"> Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr.<a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank"> Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around on wireless spatial intelligence and 3D vision.
+Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the<a href="https://www.polyu.edu.hk/comp/" target="_blank"> Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr.<a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank"> Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around on wireless spatial intelligence and 3D vision.
 
 
 
 # 🔥 News
-- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON (CCF-B).
-- *2025.12*: &nbsp;🎉🎉 One paper has been accepted at IEEE INFOCOM (CCF-A).
-- *2025.11*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (CCF-A).
-- *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp (CCF-A).
-- *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (CCF-A).
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON (<span style="color: red; font-weight: bold;">CCF-B</span>).
+- *2025.12*: &nbsp;🎉🎉 One paper has been accepted at IEEE INFOCOM (<span style="color: red; font-weight: bold;">CCF-A</span>).
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (<span style="color: red; font-weight: bold;">CCF-A</span>).
+- *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp (<span style="color: red; font-weight: bold;">CCF-A</span>).
+- *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (<span style="color: red; font-weight: bold;">CCF-A</span>).
 
 # 📝 Publications 
 
