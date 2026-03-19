@@ -31,21 +31,17 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 # 📝 Publications
 
-- **SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction**  
-  Shen Wang, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
-  *IEEE INFOCOM 2026 (CCF-A)*
+1. **<span class="badge">INFOCOM 2026</span>** SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction  
+   Shen Wang, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
 
-- **City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts**  
-  Shen Wang, Guosheng Wang, Donghui Dai, Lei Yang  
-  *ACM MobiCom 2026 (CCF-A)*
+2. **<span class="badge">MobiCom 2026</span>** City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts  
+   Shen Wang, Guosheng Wang, Donghui Dai, Lei Yang  
 
-- **Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos**  
-  Shen Wang, Xiaopeng Zhao, Donghui Dai, Lei Yang  
-  *ACM MobiCom 2024 (CCF-A)*
+3. **<span class="badge">MobiCom 2024</span>** Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos  
+   Shen Wang, Xiaopeng Zhao, Donghui Dai, Lei Yang  
 
-- **Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields**  
-  Xiaopeng Zhao\*, **Shen Wang\***, Zhenlin An, Lei Yang  
-  *ACM IMWUT / UbiComp 2024 (CCF-A)*
+4. **<span class="badge">UbiComp 2024</span>** Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields  
+   Xiaopeng Zhao\*, **Shen Wang\***, Zhenlin An, Lei Yang  
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
