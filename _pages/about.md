@@ -62,10 +62,10 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 - 
 # 📖 Educations
 - *2023 - Present*, Ph.D. Candidate in the Department of Computing  
-  The Hong Kong Polytechnic University (PolyU) 
+  **The Hong Kong Polytechnic University (PolyU)** 
 
 - *2019 - 2023*, B.Eng. in Computer Science and Technology  
-  Harbin Institute of Technology (HIT)
+  **Harbin Institute of Technology (HIT)**
   
 # 🤝 Professional Services
 - **TPC Member**  
