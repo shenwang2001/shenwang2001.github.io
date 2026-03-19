@@ -74,3 +74,10 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 # 💻 Internships
 - *2019.05 - 2020.02*, [Lorem](https://github.com/), China.
 -->
+# 🤝 Professional Services
+
+- **TPC Member**  
+  IWCMC 2026, ISPA 2025, SpaCCS 2025
+
+- **Reviewer**  
+  KDD 2026, CHI 2026 Posters, IMWUT 2026, MobileHCI 2026
