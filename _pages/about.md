@@ -23,11 +23,11 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 
 # 🔥 News
-- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON (<span style="color: red; font-weight: bold;">CCF-B</span>).
-- *2025.12*: &nbsp;🎉🎉 One paper has been accepted at IEEE INFOCOM (<span style="color: red; font-weight: bold;">CCF-A</span>).
-- *2025.11*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (<span style="color: red; font-weight: bold;">CCF-A</span>).
-- *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp (<span style="color: red; font-weight: bold;">CCF-A</span>).
-- *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (<span style="color: red; font-weight: bold;">CCF-A</span>).
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON.
+- *2025.12*: &nbsp;🎉🎉 One paper has been accepted at IEEE INFOCOM.
+- *2025.11*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom.
+- *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp.
+- *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom.
 
 # 📝 Publications
 
