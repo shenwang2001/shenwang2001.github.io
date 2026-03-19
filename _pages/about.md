@@ -40,19 +40,19 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts</p>
+<p><span style="display: inline-block; background-color: #9031aa; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>ACM MobiCom</em>, 2026. <span style="color: red;">(CCF-A Conference)</span></p>
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
+<p><span style="display: inline-block; background-color: #9031aa; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
 <p><strong><u>Shen Wang</u></strong>, Xiaopeng Zhao, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>ACM MobiCom</em>, 2024. <span style="color: red;">(CCF-A Conference)</span></p>
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
+<p><span style="display: inline-block; background-color: #67ad5c; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
 <p>Xiaopeng Zhao*, <strong><u>Shen Wang</u>*</strong>, Zhenlin An, Lei Yang</p>
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2024. <span style="color: red;">(CCF-A Conference)</span></p>
 </li>
