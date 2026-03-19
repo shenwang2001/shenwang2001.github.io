@@ -58,7 +58,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #4351af; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing</p>
+<p><span style="display: inline-block; background-color: #323b50; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing</p>
 <p>Fengrui Zhang, Donghui Dai, Zhicheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>In Proc. of <em>IEEE SECON</em>, 2026. <span style="color: red;">(CCF-B Conference)</span></p>
 </li>
