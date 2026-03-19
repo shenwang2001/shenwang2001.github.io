@@ -29,21 +29,23 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 - *2024.7*: &nbsp;🎉🎉 One paper has been accepted at ACM UbiComp (<span style="color: red; font-weight: bold;">CCF-A</span>).
 - *2024.6*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom (<span style="color: red; font-weight: bold;">CCF-A</span>).
 
-# 📝 Publications 
+# 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2016</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
+- **SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction**  
+  Shen Wang, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
+  *IEEE INFOCOM 2026 (CCF-A)*
 
-[Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf)
+- **City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts**  
+  Shen Wang, Guosheng Wang, Donghui Dai, Lei Yang  
+  *ACM MobiCom 2026 (CCF-A)*
 
-**Kaiming He**, Xiangyu Zhang, Shaoqing Ren, Jian Sun
+- **Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos**  
+  Shen Wang, Xiaopeng Zhao, Donghui Dai, Lei Yang  
+  *ACM MobiCom 2024 (CCF-A)*
 
-[**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-</div>
-</div>
-
-- [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020**
+- **Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields**  
+  Xiaopeng Zhao\*, **Shen Wang\***, Zhenlin An, Lei Yang  
+  *ACM IMWUT / UbiComp 2024 (CCF-A)*
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
