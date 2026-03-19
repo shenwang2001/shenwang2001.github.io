@@ -31,17 +31,35 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 # 📝 Publications
 
-1. **<span class="badge">INFOCOM 2026</span>** SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction  
+### Regular Articles
+
+<div class="pub-list">
+
+1. <span class="conf-badge conf-infocom">INFOCOM 2026</span>  
+   **SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction**  
    Shen Wang, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
+   In Proc. of IEEE INFOCOM, 2026. **(CCF-A Conference)**  
+   [Paper](#) [Project](#) [Code](#)
 
-2. **<span class="badge">MobiCom 2026</span>** City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts  
+2. <span class="conf-badge conf-mobicom">MobiCom 2026</span>  
+   **City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts**  
    Shen Wang, Guosheng Wang, Donghui Dai, Lei Yang  
+   In Proc. of ACM MobiCom, 2026. **(CCF-A Conference)**  
+   [Paper](#) [Project](#) [Code](#)
 
-3. **<span class="badge">MobiCom 2024</span>** Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos  
+3. <span class="conf-badge conf-mobicom">MobiCom 2024</span>  
+   **Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos**  
    Shen Wang, Xiaopeng Zhao, Donghui Dai, Lei Yang  
+   In Proc. of ACM MobiCom, Madrid, Spain, 2024. **(CCF-A Conference)**  
+   [Paper](#) [Video](#)
 
-4. **<span class="badge">UbiComp 2024</span>** Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields  
+4. <span class="conf-badge conf-ubicomp">UbiComp 2024</span>  
+   **Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields**  
    Xiaopeng Zhao\*, **Shen Wang\***, Zhenlin An, Lei Yang  
+   In Proc. of ACM IMWUT / UbiComp, 2024. **(CCF-A Conference)**  
+   [Paper](#) [Code](#)
+
+</div>
 
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
