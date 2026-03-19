@@ -92,7 +92,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
   KDD 2026, CHI 2026 Posters, IMWUT 2026, MobileHCI 2026
 
 # 👨‍🏫 Teaching Experience
-- *2026:* Wireless networking and mobile computing (COMP 5327 ) - Teaching Assistant 
+- *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
 - *2025:* Internet Computing and Applications (COMP 5322) - Teaching Assistant  
 - *2024:* Operating System (COMP 2432) - Teaching Assistant  
 - *2023:* Information Technology (ENG 2003) - Teaching Assistant
