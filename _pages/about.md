@@ -31,40 +31,51 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 # 📝 Publications
 
-• <span class="badge">INFOCOM'26</span>  
-  **SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction**  
-  **<u>Shen Wang</u>**, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
-  In Proc. of IEEE INFOCOM, 2026. **(<span style="color: red;">CCF-A Conference</span>)**
+<h3>Regular Articles</h3>
 
-• <span class="badge">MobiCom'26</span>  
-  **City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts**  
-  **<u>Shen Wang</u>**, Guosheng Wang, Donghui Dai, Lei Yang  
-  In Proc. of ACM MobiCom, 2026. **(<span style="color: red;">CCF-A Conference</span>)**
+<ol>
+<li>
+<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction</p>
+<p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang</p>
+<p>In Proc. of <em>IEEE INFOCOM</em>, 2026. <span style="color: red;">(CCF-A Conference)</span></p>
+</li>
 
-• <span class="badge">MobiCom'24</span>  
-  **Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos**  
-  **<u>Shen Wang</u>**, Xiaopeng Zhao, Donghui Dai, Lei Yang  
-  In Proc. of ACM MobiCom, 2024. **(<span style="color: red;">CCF-A Conference</span>)**
+<li>
+<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts</p>
+<p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
+<p>In Proc. of <em>ACM MobiCom</em>, 2026. <span style="color: red;">(CCF-A Conference)</span></p>
+</li>
 
-• <span class="badge">UbiComp'24</span>  
-  **Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields**  
-  Xiaopeng Zhao*, **<u>Shen Wang</u>***, Zhenlin An, Lei Yang  
-  In Proc. of ACM IMWUT / UbiComp, 2024. **(<span style="color: red;">CCF-A Conference</span>)**
+<li>
+<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
+<p><strong><u>Shen Wang</u></strong>, Xiaopeng Zhao, Donghui Dai, Lei Yang</p>
+<p>In Proc. of <em>ACM MobiCom</em>, 2024. <span style="color: red;">(CCF-A Conference)</span></p>
+</li>
 
-• <span class="badge">SECON'26</span>  
-  **Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing**  
-  Fengrui Zhang, Donghui Dai, Zhicheng Wang, **<u>Shen Wang</u>**, Lei Yang  
-  In Proc. of IEEE SECON, 2026. **(<span style="color: red;">CCF-B Conference</span>)**
+<li>
+<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
+<p>Xiaopeng Zhao*, <strong><u>Shen Wang</u>*</strong>, Zhenlin An, Lei Yang</p>
+<p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2024. <span style="color: red;">(CCF-A Conference)</span></p>
+</li>
 
-• <span class="badge">arXiv 2025</span>  
-  **Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals**  
-  Guosheng Wang, **<u>Shen Wang</u>**, Lei Yang  
-  arXiv preprint, 2025.
+<li>
+<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing</p>
+<p>Fengrui Zhang, Donghui Dai, Zhicheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
+<p>In Proc. of <em>IEEE SECON</em>, 2026. <span style="color: red;">(CCF-B Conference)</span></p>
+</li>
 
-• <span class="badge">ICSS 2023</span>  
-  **Gait Impairment Assessment Service for Community-Dwelling Older Adults**  
-  Xin Hu, Ke Xue, **<u>Shen Wang</u>**, Deqiong Ding, Yongqing Han, Zhao Sun, Xiyu Gao, Minjun Tian, Bo Sang, Zhilin Zhang, Dianhui Chu  
-  In Proc. of ICSS, 2023.
+<li>
+<p><span style="display: inline-block; background-color: #555555; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">arXiv 2025</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
+<p>Guosheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
+<p>arXiv preprint, 2025.</p>
+</li>
+
+<li>
+<p><span style="display: inline-block; background-color: #172088; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">ICSS 2023</span> Gait Impairment Assessment Service for Community-Dwelling Older Adults</p>
+<p>Xin Hu, Ke Xue, <strong><u>Shen Wang</u></strong>, Deqiong Ding, Dianhui Chu et al.</p>
+<p>In Proc. of ICSS, 2023.</p>
+</li>
+</ol>
 
 # 🎖 Honors and Awards
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
