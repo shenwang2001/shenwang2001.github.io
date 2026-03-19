@@ -55,10 +55,6 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
   Guosheng Wang, **<u>Shen Wang</u>**, Lei Yang  
   **arxiv 2025**
 
-- **Gait Impairment Assessment Service for Community-Dwelling Older Adults**  
-  Xin Hu, Ke Xue, **<u>Shen Wang</u>**, Deqiong Ding, Dianhui Chu et al
-  **ICSS 2023**
-
 # 🎖 Honors and Awards
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
