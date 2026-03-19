@@ -31,29 +31,33 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 # 📝 Publications
 
-- **SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction**  
+• <span class="badge">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction  
   **<u>Shen Wang</u>**, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang  
-  **IEEE INFOCOM 2026** **(<span style="color: red;">CCF-A</span>)**
+  In Proc. of IEEE INFOCOM, 2026. **(<span style="color: red;">CCF-A Conference</span>)**
 
-- **City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts**  
+• <span class="badge">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts  
   **<u>Shen Wang</u>**, Guosheng Wang, Donghui Dai, Lei Yang  
-  **ACM MobiCom 2026** **(<span style="color: red;">CCF-A</span>)**
+  In Proc. of ACM MobiCom, 2026. **(<span style="color: red;">CCF-A Conference</span>)**
 
-- **Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos**  
+• <span class="badge">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos  
   **<u>Shen Wang</u>**, Xiaopeng Zhao, Donghui Dai, Lei Yang  
-  **ACM MobiCom 2024** **(<span style="color: red;">CCF-A</span>)**
+  In Proc. of ACM MobiCom, 2024. **(<span style="color: red;">CCF-A Conference</span>)**
 
-- **Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields**  
-  Xiaopeng Zhao\*, **<u>Shen Wang</u>\***, Zhenlin An, Lei Yang  
-  **ACM IMWUT / UbiComp 2024** **(<span style="color: red;">CCF-A</span>)**
+• <span class="badge">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields  
+  Xiaopeng Zhao*, **<u>Shen Wang</u>***, Zhenlin An, Lei Yang  
+  In Proc. of ACM IMWUT / UbiComp, 2024. **(<span style="color: red;">CCF-A Conference</span>)**
 
-- **Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing**  
+• <span class="badge">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing  
   Fengrui Zhang, Donghui Dai, Zhicheng Wang, **<u>Shen Wang</u>**, Lei Yang  
-  **IEEE SECON 2026** **(<span style="color: red;">CCF-B</span>)**   <!-- 如不是CCF-A请告诉我，我帮你改 -->
+  In Proc. of IEEE SECON, 2026. **(<span style="color: red;">CCF-B Conference</span>)**
 
-- **Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals**  
+• <span class="badge">arXiv 2025</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals  
   Guosheng Wang, **<u>Shen Wang</u>**, Lei Yang  
-  **arxiv 2025**
+  arXiv preprint, 2025.
+
+• <span class="badge">ICSS 2023</span> Gait Impairment Assessment Service for Community-Dwelling Older Adults  
+  Xin Hu, Ke Xue, **<u>Shen Wang</u>**, Deqiong Ding, Yongqing Han, Zhao Sun, Xiyu Gao, Minjun Tian, Bo Sang, Zhilin Zhang, Dianhui Chu  
+  In Proc. of ICSS, 2023.
 
 # 🎖 Honors and Awards
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
