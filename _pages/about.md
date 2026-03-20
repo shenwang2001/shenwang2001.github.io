@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-# 👋 About me
+# About me
 Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the<a href="https://www.polyu.edu.hk/comp/" target="_blank"> Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr.<a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank"> Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around on wireless spatial intelligence and 3D vision.
 
 
@@ -72,12 +72,12 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 </ol>
 
-# 🎖 Honors and Awards
+# Honors and Awards
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 - 
-# 📖 Educations
+# Educations
 
 - *2023 - Present*  
   **The Hong Kong Polytechnic University (PolyU)**  
@@ -87,7 +87,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
   **Harbin Institute of Technology (HIT)**  
   *B.Eng. in Computer Science and Technology*
   
-# 🤝 Professional Services
+# Professional Services
 - **TPC Member**  
   IWCMC 2026, ISPA 2025, SpaCCS 2025
 
