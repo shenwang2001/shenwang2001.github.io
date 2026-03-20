@@ -79,9 +79,8 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
-- 
+  
 # Educations
-
 - *2023 - Present*  
   **The Hong Kong Polytechnic University (PolyU)**  
   *Ph.D. Candidate in the Department of Computing*
