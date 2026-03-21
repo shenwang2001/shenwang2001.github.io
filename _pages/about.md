@@ -30,7 +30,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 - *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
 
 # 📝 Publications
-
+<p><em>* denotes equal contribution</em></p>
 
 <ol>
 
