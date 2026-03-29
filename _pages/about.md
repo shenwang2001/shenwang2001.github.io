@@ -84,11 +84,11 @@ Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.poly
   
 # 📖 Educations
 
-- *2023 - Present*  
+- **<span style="color: #7f202b;">2023 - Present</span>**    
   **<span style="color: #7f202b;">The Hong Kong Polytechnic University (PolyU)</span>**  
   *Ph.D. Candidate in the Department of Computing*
 
-- *2019 - 2023*  
+- **<span style="color: #204f6e;">2019 - 2023</span>**    
   **<span style="color: #204f6e;">Harbin Institute of Technology (HIT)</span>**  
   *B.Eng. in Computer Science and Technology*
   
