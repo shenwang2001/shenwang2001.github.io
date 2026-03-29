@@ -82,7 +82,7 @@ Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.poly
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 
-# 📖 Educations
+# Educations
 
 - *2023 - Present*  
   <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU"> 
