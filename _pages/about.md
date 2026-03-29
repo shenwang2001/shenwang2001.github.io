@@ -80,13 +80,14 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
   
-# Educations
+# 📖 Educations
+
 - *2023 - Present*  
-  **The Hong Kong Polytechnic University (PolyU)**  
+  **<span style="color: #7f202b;">The Hong Kong Polytechnic University (PolyU)</span>**  
   *Ph.D. Candidate in the Department of Computing*
 
 - *2019 - 2023*  
-  **Harbin Institute of Technology (HIT)**  
+  **<span style="color: #204f6e;">Harbin Institute of Technology (HIT)</span>**  
   *B.Eng. in Computer Science and Technology*
   
 # Professional Services
