@@ -18,8 +18,12 @@ redirect_from:
 <span class='anchor' id='about-me'></span>
 
 # About me
-Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the<a href="https://www.polyu.edu.hk/comp/" target="_blank"> Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr.<a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank"> Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around on wireless spatial intelligence and 3D vision.
 
+Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology.
+
+My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I focus on integrating wireless signals with neural radiance fields to enable high-fidelity 3D scene reconstruction, radio-frequency scene understanding, and intelligent spatial perception in complex urban environments.
+
+If you are interested in my research or would like to collaborate, **feel free to reach out** via email or schedule a meeting — I’m always happy to chat!
 
 
 # 🔥 News
