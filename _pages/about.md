@@ -89,7 +89,8 @@ Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.poly
   **The Hong Kong Polytechnic University (PolyU)**  
   *Ph.D. Candidate in the Department of Computing*
 
-- *2019 - 2023*  
+- *2019 - 2023*
+- <img src="images/HIT.svg" height="10" style="vertical-align: middle; margin-right: 10px;" alt="HIT"> 
   **Harbin Institute of Technology (HIT)**  
   *B.Eng. in Computer Science and Technology*
   
