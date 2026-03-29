@@ -86,7 +86,7 @@ Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.poly
 
 - *2023 - Present*  
   <img src="images/PolyU.svg" height="32" style="vertical-align: middle; margin-right: 10px;" alt="PolyU"> 
-  <a href="https://zh-yue.wikipedia.org/w/index.php?curid=84539" target="_blank"><strong>The Hong Kong Polytechnic University (PolyU)</strong></a>  
+  **The Hong Kong Polytechnic University (PolyU)**  
   *Ph.D. Candidate in the Department of Computing*
 
 - *2019 - 2023*  
