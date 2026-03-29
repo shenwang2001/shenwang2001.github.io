@@ -81,11 +81,11 @@ Hi!👋 I am currently a 3rd year Ph.D. student in the <a href="https://www.poly
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
-  
+
 # 📖 Educations
 
 - *2023 - Present*  
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/The_Hong_Kong_Polytechnic_University_Logo.svg/120px-The_Hong_Kong_Polytechnic_University_Logo.svg.png" height="30" style="vertical-align: middle; margin-right: 8px;" alt="PolyU"> 
+  <img src="images/PolyU.svg" height="32" style="vertical-align: middle; margin-right: 10px;" alt="PolyU"> 
   <a href="https://zh-yue.wikipedia.org/w/index.php?curid=84539" target="_blank"><strong>The Hong Kong Polytechnic University (PolyU)</strong></a>  
   *Ph.D. Candidate in the Department of Computing*
 
