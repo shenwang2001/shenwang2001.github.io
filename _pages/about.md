@@ -43,7 +43,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 </li>
   
 <li>
-<p><span style="display: inline-block; background-color: #744d2a; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction</p>
+<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>IEEE INFOCOM</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
@@ -57,7 +57,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #744d2a; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
+<p><span style="display: inline-block; background-color: #ac2326; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
 <p>Xiaopeng Zhao*, <strong><u>Shen Wang</u>*</strong>, Zhenlin An, Lei Yang</p>
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2024. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
