@@ -25,6 +25,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
 - *2025.12*: &nbsp;🎉🎉 Our **SIGN-RF** has been accepted at IEEE INFOCOM 2026.
 - *2025.11*: &nbsp;🎉🎉 Our **MoRE** has been accepted at ACM MobiCom 2026.
@@ -60,6 +61,12 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
 <p>Xiaopeng Zhao*, <strong><u>Shen Wang</u>*</strong>, Zhenlin An, Lei Yang</p>
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2024. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
+</li>
+
+<li>
+<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">KDD'26</span> CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning <span style="color: #d32f2f;"><strong>(Oral)</strong></span></p>
+<p>Ao Wang, Zhiwen Chen, <strong><u>Shen Wang</u></strong>, Qiang Xia, Yi Zhou, Jian Li</p>
+<p>In Proc. of <em>ACM KDD</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
 <li>
