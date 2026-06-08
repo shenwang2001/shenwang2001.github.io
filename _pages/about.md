@@ -41,7 +41,7 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 <li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
-<p>In Proc. of <em>IEEE TMC</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
+<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
 </li>
 
 <li>
