@@ -19,7 +19,7 @@ redirect_from:
 
 # About me
 
-Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I focus on leveraging wireless signals (RF) to enable high-fidelity 3D scene reconstruction and scene understanding.
+Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I work on integrating **visible light (vision)** and **wireless signals (RF)** to enable high-fidelity, scalable spatial perception and reconstruction of real-world environments.
 
 <span style="color: #d32f2f; font-weight: bold;">
 If you are interested in my research or would like to collaborate, feel free to reach out via email at 
