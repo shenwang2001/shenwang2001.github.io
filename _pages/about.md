@@ -44,7 +44,7 @@ I’m always happy to chat!
 <ol>
 
 <li>
-<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC 2026</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
+<p><span style="display: inline-block; background-color: #356859; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC 2026</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
 <p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
 </li>
@@ -56,12 +56,10 @@ I’m always happy to chat!
 </li>
   
 <li>
-<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction</p>
+<p><span style="display: inline-block; background-color: #315a8c; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">INFOCOM'26</span> SIGN-RF: Self-Adaptive Neural Fields for Scalable Urban Radio Reconstruction</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Junyang Liu, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>IEEE INFOCOM</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
-
-
 
 <li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
@@ -70,13 +68,13 @@ I’m always happy to chat!
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
+<p><span style="display: inline-block; background-color: #287d78; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'24</span> Crowdsourced Geospatial Intelligence: Constructing 3D Urban Maps with Satellitic Radiance Fields</p>
 <p>Xiaopeng Zhao*, <strong><u>Shen Wang</u>*</strong>, Zhenlin An, Lei Yang</p>
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2024. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'26</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
+<p><span style="display: inline-block; background-color: #287d78; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'26</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
 <p>Guosheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
@@ -87,25 +85,25 @@ I’m always happy to chat!
 <p>In Proc. of <em>ACM MobiCom</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
-
-
 <li>
-<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">KDD'26</span> CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning <span style="color: #d32f2f;"><strong>(Oral)</strong></span></p>
+<p><span style="display: inline-block; background-color: #7650a8; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">KDD'26</span> CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning <span style="color: #d32f2f;"><strong>(Oral)</strong></span></p>
 <p>Ao Wang, Zhiwen Chen, <strong><u>Shen Wang</u></strong>, Qiang Xia, Yi Zhou, Jian Li</p>
 <p>In Proc. of <em>ACM KDD</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
 <li>
-<p><span style="display: inline-block; background-color: #323b50; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing</p>
+<p><span style="display: inline-block; background-color: #53657d; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SECON'26</span> Emotion-Aware Personalization: Resonating Short-Video Recommendations via Multi-Modal Affective Computing</p>
 <p>Fengrui Zhang, Donghui Dai, Zhicheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>In Proc. of <em>IEEE SECON</em>, 2026. <span style="color: #d32f2f;">(CCF-B Conference)</span></p>
 </li>
 
-<!-- <li>
-<p><span style="display: inline-block; background-color: #555555; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">arXiv 2025</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
+<!--
+<li>
+<p><span style="display: inline-block; background-color: #666666; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">arXiv 2025</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
 <p>Guosheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>arXiv preprint, 2025.</p>
-</li> -->
+</li>
+-->
 
 
 </ol>
