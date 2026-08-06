@@ -29,6 +29,7 @@ I’m always happy to chat!
 
 
 # 🔥 News
+* *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
 - *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
@@ -75,6 +76,20 @@ I’m always happy to chat!
 </li>
 
 <li>
+<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">UbiComp'26</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
+<p>Guosheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
+<p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
+</li>
+
+<li>
+<p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> A Scalable Full-Stack System for High-Precision Industrial Vibration Monitoring</p>
+<p>Lingang Li, Shihan Zhao, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
+<p>In Proc. of <em>ACM MobiCom</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
+</li>
+
+
+
+<li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">KDD'26</span> CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning <span style="color: #d32f2f;"><strong>(Oral)</strong></span></p>
 <p>Ao Wang, Zhiwen Chen, <strong><u>Shen Wang</u></strong>, Qiang Xia, Yi Zhou, Jian Li</p>
 <p>In Proc. of <em>ACM KDD</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
@@ -86,11 +101,11 @@ I’m always happy to chat!
 <p>In Proc. of <em>IEEE SECON</em>, 2026. <span style="color: #d32f2f;">(CCF-B Conference)</span></p>
 </li>
 
-<li>
+<!-- <li>
 <p><span style="display: inline-block; background-color: #555555; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">arXiv 2025</span> Radiance-Field Reinforced Pretraining: Scaling Localization Models with Unlabeled Wireless Signals</p>
 <p>Guosheng Wang, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>arXiv preprint, 2025.</p>
-</li>
+</li> -->
 
 
 </ol>
