@@ -31,7 +31,7 @@ class HomepageParser(HTMLParser):
         if tag == "a":
             self._active_link = {"attrs": attributes, "text": ""}
             self.links.append(self._active_link)
-        if tag in {"h1", "h2", "summary"}:
+        if tag in {"h1", "h2", "h3", "summary"}:
             self._capture_tag = tag
             self._text_capture = []
         if tag == "ul" and "news-list--recent" in attributes.get("class", "").split():
@@ -47,7 +47,7 @@ class HomepageParser(HTMLParser):
             self._active_link = None
         if self._capture_tag == tag:
             text = " ".join("".join(self._text_capture).split())
-            if tag in {"h1", "h2"}:
+            if tag in {"h1", "h2", "h3"}:
                 self.headings.append((tag, text))
             else:
                 self.summaries.append(text)
@@ -139,10 +139,10 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertIn("outline: 0", navigation_scss)
         self.assertNotIn("&:first-child {\n        font-weight: bold;", navigation_scss)
 
-    def test_document_outline_has_one_author_h1_and_section_h2s(self):
+    def test_document_outline_keeps_original_section_h1s_and_author_h3(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]
-        h2s = [text for tag, text in self.parser.headings if tag == "h2"]
-        self.assertEqual(h1s, ["Shen Wang(王申)"])
+        h3s = [text for tag, text in self.parser.headings if tag == "h3"]
+        self.assertEqual(h3s, ["Shen Wang(王申)"])
         for section in [
             "About me",
             "🔥 News",
@@ -152,7 +152,7 @@ class HomepageAcceptanceTests(unittest.TestCase):
             "Professional Services",
             "Teaching Experience",
         ]:
-            self.assertIn(section, h2s)
+            self.assertIn(section, h1s)
 
     def test_stale_tracking_integrations_are_not_rendered(self):
         script_sources = [attrs.get("src", "") for tag, attrs in self.parser.tags if tag == "script"]

@@ -10,7 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-## About me
+# About me
 
 Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank" rel="noopener noreferrer">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank" rel="noopener noreferrer">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I work on integrating visible light (vision) and wireless signals (RF) to enable high-fidelity, scalable spatial perception and reconstruction of real-world environments.
 
@@ -23,7 +23,7 @@ I’m always happy to chat!
 
 <span class='anchor' id='news'></span>
 
-## 🔥 News
+# 🔥 News
 
 * *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
 - *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
@@ -36,7 +36,7 @@ I’m always happy to chat!
 
 <span class='anchor' id='publications'></span>
 
-## 📝 Publications
+# 📝 Publications
 <p><em>* denotes equal contribution</em></p>
 
 <ol>
@@ -108,12 +108,12 @@ I’m always happy to chat!
 
 <span class='anchor' id='experience'></span>
 
-## Honors and Awards
+# Honors and Awards
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 
-## Education
+# Education
 
 - *2023 - Present*  
   <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU"> 
@@ -127,14 +127,14 @@ I’m always happy to chat!
   <br>
   *B.Eng. in Computer Science and Technology*
   
-## Professional Services
+# Professional Services
 - **TPC Member**  
   MobiCom 2026 Artifact Evaluation, IWCMC 2026, ISPA 2025, SpaCCS 2025
 
 - **Reviewer**  
    IEEE TMC, KDD 2027, MASS 2026, KDD 2026, CHI 2026 Posters, IMWUT 2026, MobileHCI 2026
 
-## Teaching Experience
+# Teaching Experience
 - *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
 - *2025:* Internet Computing and Applications (COMP 5322) - Teaching Assistant  
 - *2024:* Operating System (COMP 2432) - Teaching Assistant  
