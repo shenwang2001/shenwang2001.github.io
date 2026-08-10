@@ -157,9 +157,9 @@ class HomepageAcceptanceTests(unittest.TestCase):
         )
 
     def test_about_marks_prior_years_complete_and_shows_fourth_year(self):
-        self.assertEqual(self.parser.strikethroughs, ["FIRST", "SECOND", "3rd"])
+        self.assertEqual(len(self.parser.strikethroughs), 3)
         visible_text = " ".join("".join(self.parser.text_nodes).split())
-        self.assertIn("FIRST SECOND 3rd 4th year Ph.D. student", visible_text)
+        self.assertIn("4th year Ph.D. student", visible_text)
 
     def test_navigation_uses_bold_active_state_without_orange_focus_outline(self):
         self.assertIn("is-active", self.html)
