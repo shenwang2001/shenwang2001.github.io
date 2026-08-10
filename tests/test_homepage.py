@@ -93,6 +93,7 @@ class HomepageAcceptanceTests(unittest.TestCase):
                 + result.stderr
             )
         cls.html = (SITE / "index.html").read_text(encoding="utf-8")
+        cls.css = (SITE / "assets" / "css" / "main.css").read_text(encoding="utf-8")
         cls.parser = HomepageParser()
         cls.parser.feed(cls.html)
 
@@ -115,12 +116,28 @@ class HomepageAcceptanceTests(unittest.TestCase):
             "Internal links must not inherit a global blank target",
         )
 
-    def test_news_shows_six_recent_items_and_collapses_older_items(self):
-        self.assertEqual(self.parser.recent_news_items, 6)
-        self.assertIn("More News", self.parser.summaries)
-        self.assertIn("CityWeave", self.html)
-        self.assertIn("SIGN-RF", self.html)
-        self.assertIn("MoRE", self.html)
+    def test_news_keeps_the_original_update_wording(self):
+        self.assertNotIn("More News", self.parser.summaries)
+        self.assertNotIn('class="news-list news-list--recent"', self.html)
+        self.assertIn("One paper has been accepted at ACM MobiCom 2026", self.html)
+        self.assertIn("One paper has been accepted at IEEE TMC", self.html)
+        for paper in ["SIGN-RF", "MoRE", "GaRF", "RP-NeRF"]:
+            self.assertIn(paper, self.html)
+
+    def test_sidebar_does_not_render_the_seo_description(self):
+        self.assertNotIn(
+            '<li><div style="white-space: normal; margin-bottom: 1em;">Shen Wang is a Ph.D. candidate',
+            self.html,
+        )
+
+    def test_navigation_uses_bold_active_state_without_orange_focus_outline(self):
+        self.assertIn("is-active", self.html)
+        navigation_scss = (ROOT / "_sass" / "_navigation.scss").read_text(encoding="utf-8")
+        self.assertIn("&:focus", navigation_scss)
+        self.assertIn("&.is-active", navigation_scss)
+        self.assertIn("font-weight: 700", navigation_scss)
+        self.assertIn("outline: 0", navigation_scss)
+        self.assertNotIn("&:first-child {\n        font-weight: bold;", navigation_scss)
 
     def test_document_outline_has_one_author_h1_and_section_h2s(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]

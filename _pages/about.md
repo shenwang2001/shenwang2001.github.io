@@ -25,23 +25,14 @@ I’m always happy to chat!
 
 ## 🔥 News
 
-<ul class="news-list news-list--recent">
-  <li><em>Aug. 2026</em> — <strong>A Scalable Full-Stack System for High-Precision Industrial Vibration Monitoring</strong> was accepted to <em>ACM MobiCom 2026</em>.</li>
-  <li><em>Aug. 2026</em> — <strong>Radiance-Field Reinforced Pretraining</strong> was accepted to <em>ACM IMWUT / UbiComp 2026</em>.</li>
-  <li><em>Jun. 2026</em> — <strong>Scaling Neural Radio Radiance Fields to City-Scale</strong> was accepted to <em>IEEE TMC</em>.</li>
-  <li><em>May 2026</em> — <strong>CityWeave</strong> was accepted to <em>ACM KDD 2026</em> as an oral presentation.</li>
-  <li><em>Mar. 2026</em> — <strong>Emotion-Aware Personalization</strong> was accepted to <em>IEEE SECON 2026</em>.</li>
-  <li><em>Dec. 2025</em> — <strong>SIGN-RF</strong> was accepted to <em>IEEE INFOCOM 2026</em>.</li>
-</ul>
-
-<details class="news-archive">
-  <summary>More News</summary>
-  <ul class="news-list">
-    <li><em>Nov. 2025</em> — <strong>MoRE</strong> was accepted to <em>ACM MobiCom 2026</em>.</li>
-    <li><em>Jul. 2024</em> — <strong>GaRF</strong> was accepted to <em>ACM IMWUT / UbiComp 2024</em>.</li>
-    <li><em>Jun. 2024</em> — <strong>RP-NeRF</strong> was accepted to <em>ACM MobiCom 2024</em>.</li>
-  </ul>
-</details>
+* *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
+- *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
+- *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
+- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
+- *2025.12*: &nbsp;🎉🎉 Our **SIGN-RF** has been accepted at IEEE INFOCOM 2026.
+- *2025.11*: &nbsp;🎉🎉 Our **MoRE** has been accepted at ACM MobiCom 2026.
+- *2024.07*: &nbsp;🎉🎉 Our **GaRF** has been accepted at ACM UbiComp 2024.
+- *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
 
 <span class='anchor' id='publications'></span>
 

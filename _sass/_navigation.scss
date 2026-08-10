@@ -187,6 +187,12 @@
     &:hover {
       color: $masthead-link-color-hover;
     }
+
+    &:focus,
+    &.is-active {
+      outline: 0;
+      font-weight: 700;
+    }
   }
 
   button {
@@ -209,8 +215,6 @@
       vertical-align: middle;
 
       &:first-child {
-        font-weight: bold;
-
         a {
           margin-left: 0;
         }
