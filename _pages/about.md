@@ -16,7 +16,6 @@ Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in th
 
 <span style="color: #d32f2f; font-weight: bold;">
 I am on the 2026–2027 academic job market and am seeking faculty positions in wireless systems, spatial intelligence, and multimodal perception.
-Please feel free to contact me at <a href="mailto:ws9939@outlook.com" style="color: #d32f2f; text-decoration: underline;">ws9939@outlook.com</a> regarding potential opportunities.
 </span>
 
 
