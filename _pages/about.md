@@ -8,18 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
-
 <span class='anchor' id='about-me'></span>
 
-# About me
+## About me
 
-Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I work on integrating visible light (vision) and wireless signals (RF) to enable high-fidelity, scalable spatial perception and reconstruction of real-world environments.
+Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> 3rd year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank" rel="noopener noreferrer">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank" rel="noopener noreferrer">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I work on integrating visible light (vision) and wireless signals (RF) to enable high-fidelity, scalable spatial perception and reconstruction of real-world environments.
 
 <span style="color: #d32f2f; font-weight: bold;">
 If you are interested in my research or would like to collaborate, feel free to reach out via email at 
@@ -28,17 +21,31 @@ I’m always happy to chat!
 </span>
 
 
-# 🔥 News
-* *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
-- *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
-- *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
-- *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
-- *2025.12*: &nbsp;🎉🎉 Our **SIGN-RF** has been accepted at IEEE INFOCOM 2026.
-- *2025.11*: &nbsp;🎉🎉 Our **MoRE** has been accepted at ACM MobiCom 2026.
-- *2024.07*: &nbsp;🎉🎉 Our **GaRF** has been accepted at ACM UbiComp 2024.
-- *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
+<span class='anchor' id='news'></span>
 
-# 📝 Publications
+## 🔥 News
+
+<ul class="news-list news-list--recent">
+  <li><em>Aug. 2026</em> — <strong>A Scalable Full-Stack System for High-Precision Industrial Vibration Monitoring</strong> was accepted to <em>ACM MobiCom 2026</em>.</li>
+  <li><em>Aug. 2026</em> — <strong>Radiance-Field Reinforced Pretraining</strong> was accepted to <em>ACM IMWUT / UbiComp 2026</em>.</li>
+  <li><em>Jun. 2026</em> — <strong>Scaling Neural Radio Radiance Fields to City-Scale</strong> was accepted to <em>IEEE TMC</em>.</li>
+  <li><em>May 2026</em> — <strong>CityWeave</strong> was accepted to <em>ACM KDD 2026</em> as an oral presentation.</li>
+  <li><em>Mar. 2026</em> — <strong>Emotion-Aware Personalization</strong> was accepted to <em>IEEE SECON 2026</em>.</li>
+  <li><em>Dec. 2025</em> — <strong>SIGN-RF</strong> was accepted to <em>IEEE INFOCOM 2026</em>.</li>
+</ul>
+
+<details class="news-archive">
+  <summary>More News</summary>
+  <ul class="news-list">
+    <li><em>Nov. 2025</em> — <strong>MoRE</strong> was accepted to <em>ACM MobiCom 2026</em>.</li>
+    <li><em>Jul. 2024</em> — <strong>GaRF</strong> was accepted to <em>ACM IMWUT / UbiComp 2024</em>.</li>
+    <li><em>Jun. 2024</em> — <strong>RP-NeRF</strong> was accepted to <em>ACM MobiCom 2024</em>.</li>
+  </ul>
+</details>
+
+<span class='anchor' id='publications'></span>
+
+## 📝 Publications
 <p><em>* denotes equal contribution</em></p>
 
 <ol>
@@ -108,12 +115,14 @@ I’m always happy to chat!
 
 </ol>
 
-# Honors and Awards
+<span class='anchor' id='experience'></span>
+
+## Honors and Awards
 - *2022:* Ministry of Education of China - HUAWEI “Future Star”
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 
-# Educations
+## Education
 
 - *2023 - Present*  
   <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU"> 
@@ -127,14 +136,14 @@ I’m always happy to chat!
   <br>
   *B.Eng. in Computer Science and Technology*
   
-# Professional Services
+## Professional Services
 - **TPC Member**  
   MobiCom 2026 Artifact Evaluation, IWCMC 2026, ISPA 2025, SpaCCS 2025
 
 - **Reviewer**  
    IEEE TMC, KDD 2027, MASS 2026, KDD 2026, CHI 2026 Posters, IMWUT 2026, MobileHCI 2026
 
-# Teaching Experience
+## Teaching Experience
 - *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
 - *2025:* Internet Computing and Applications (COMP 5322) - Teaching Assistant  
 - *2024:* Operating System (COMP 2432) - Teaching Assistant  

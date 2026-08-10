@@ -7,9 +7,11 @@
 
 # Site Settings
 title                    : "Shen Wang(王申) PolyU"
-description              : ""
+description              : "Shen Wang is a Ph.D. candidate at The Hong Kong Polytechnic University researching wireless spatial intelligence, 3D vision, and multimodal spatial perception."
+url                      : "https://shenwang2001.github.io"
 repository               : "shenwang2001/shenwang2001.github.io"
-google_scholar_stats_use_cdn : true
+og_image                 : "/images/WechatIMG1956.webp"
+google_scholar_stats_enabled : false
 
 # google analytics
 # google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
@@ -22,7 +24,7 @@ google_scholar_stats_use_cdn : true
 # Site Author
 author:
   name             : "Shen Wang(王申)"
-  avatar           : "images/WechatIMG1956.jpg"
+  avatar           : "images/WechatIMG1956.webp"
   bio              : "The Hong Kong Polytechnic University"
   location         : "PQ509, PolyU, Hong Kong"
   # employer         :
@@ -89,6 +91,7 @@ exclude:
   - log
   - node_modules
   - package.json
+  - tests
   - tmp
   - vendor
 keep_files:
