@@ -142,12 +142,12 @@ class HomepageAcceptanceTests(unittest.TestCase):
             self.html,
         )
 
-    def test_about_intro_is_slightly_larger_than_the_default_body_text(self):
+    def test_about_intro_uses_the_default_body_text_size(self):
         self.assertIn('<div class="about-intro">', self.html)
         self.assertRegex(
             self.css,
             re.compile(
-                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1\.08em",
+                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1em",
                 re.DOTALL,
             ),
         )
