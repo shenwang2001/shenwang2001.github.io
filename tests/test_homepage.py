@@ -1,4 +1,5 @@
 import os
+import re
 import shutil
 import subprocess
 import sys
@@ -128,6 +129,16 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertNotIn(
             '<li><div style="white-space: normal; margin-bottom: 1em;">Shen Wang is a Ph.D. candidate',
             self.html,
+        )
+
+    def test_about_intro_is_slightly_larger_than_the_default_body_text(self):
+        self.assertIn('<div class="about-intro">', self.html)
+        self.assertRegex(
+            self.css,
+            re.compile(
+                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1\.08em",
+                re.DOTALL,
+            ),
         )
 
     def test_navigation_uses_bold_active_state_without_orange_focus_outline(self):
