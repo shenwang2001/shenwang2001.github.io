@@ -1,5 +1,28 @@
 <script src="assets/js/main.min.js"></script>
 
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    var nav = document.getElementById("site-nav");
+    if (!nav) return;
+
+    nav.addEventListener("click", function (event) {
+      var link = event.target;
+      while (link && link !== nav && link.tagName !== "A") {
+        link = link.parentNode;
+      }
+      if (!link || link === nav) return;
+
+      var links = nav.querySelectorAll("a");
+      for (var i = 0; i < links.length; i += 1) {
+        links[i].classList.remove("is-active");
+        links[i].removeAttribute("aria-current");
+      }
+      link.classList.add("is-active");
+      link.setAttribute("aria-current", "location");
+    });
+  });
+</script>
+
 {% include analytics.html %}
 {% if site.google_scholar_stats_enabled %}
   {% include fetch_google_scholar_stats.html %}

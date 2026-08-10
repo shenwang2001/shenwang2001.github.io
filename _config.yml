@@ -7,7 +7,8 @@
 
 # Site Settings
 title                    : "Shen Wang(王申) PolyU"
-description              : "Shen Wang is a Ph.D. candidate at The Hong Kong Polytechnic University researching wireless spatial intelligence, 3D vision, and multimodal spatial perception."
+description              : ""
+seo_description          : "Shen Wang is a Ph.D. candidate at The Hong Kong Polytechnic University researching wireless spatial intelligence, 3D vision, and multimodal spatial perception."
 url                      : "https://shenwang2001.github.io"
 repository               : "shenwang2001/shenwang2001.github.io"
 og_image                 : "/images/WechatIMG1956.webp"
