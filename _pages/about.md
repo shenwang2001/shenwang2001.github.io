@@ -127,7 +127,12 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
   **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
   <br>
   *B.Eng. in Computer Science and Technology*
-  
+
+# Invited Talks
+
+- *July 2026:* **Harbin Institute of Technology** — “Beyond Perception: Neural Fields for Spatial Intelligence from Multi-Source Propagation Signals”
+- *July 2026:* **Dalian University of Technology** — “Beyond Perception: Neural Fields for Spatial Intelligence from Multi-Source Propagation Signals”
+
 # Professional Services
 - **TPC Member**  
   MobiCom 2026 Artifact Evaluation, IWCMC 2026, ISPA 2025, SpaCCS 2025
