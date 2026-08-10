@@ -185,6 +185,23 @@ class HomepageAcceptanceTests(unittest.TestCase):
         ]:
             self.assertIn(section, h1s)
 
+    def test_invited_talks_section_renders_below_education(self):
+        h1s = [text for tag, text in self.parser.headings if tag == "h1"]
+        self.assertIn("Invited Talks", h1s)
+        self.assertEqual(h1s.index("Invited Talks"), h1s.index("Education") + 1)
+
+        visible_text = " ".join("".join(self.parser.text_nodes).split())
+        self.assertIn("Harbin Institute of Technology", visible_text)
+        self.assertIn("Dalian University of Technology", visible_text)
+        self.assertEqual(visible_text.count("July 2026"), 2)
+        self.assertEqual(
+            visible_text.count(
+                "Beyond Perception: Neural Fields for Spatial Intelligence from "
+                "Multi-Source Propagation Signals"
+            ),
+            2,
+        )
+
     def test_stale_tracking_integrations_are_not_rendered(self):
         script_sources = [attrs.get("src", "") for tag, attrs in self.parser.tags if tag == "script"]
         self.assertFalse(any("mapmyvisitors" in src for src in script_sources))
