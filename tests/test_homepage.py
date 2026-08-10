@@ -19,10 +19,13 @@ class HomepageParser(HTMLParser):
         self.links = []
         self.headings = []
         self.summaries = []
+        self.strikethroughs = []
+        self.text_nodes = []
         self.recent_news_items = 0
         self._text_capture = []
         self._capture_tag = None
         self._active_link = None
+        self._active_strikethrough = None
         self._in_recent_news = False
         self._recent_news_depth = 0
 
@@ -32,6 +35,8 @@ class HomepageParser(HTMLParser):
         if tag == "a":
             self._active_link = {"attrs": attributes, "text": ""}
             self.links.append(self._active_link)
+        if tag == "s":
+            self._active_strikethrough = []
         if tag in {"h1", "h2", "h3", "summary"}:
             self._capture_tag = tag
             self._text_capture = []
@@ -46,6 +51,9 @@ class HomepageParser(HTMLParser):
     def handle_endtag(self, tag):
         if tag == "a":
             self._active_link = None
+        if tag == "s" and self._active_strikethrough is not None:
+            self.strikethroughs.append("".join(self._active_strikethrough))
+            self._active_strikethrough = None
         if self._capture_tag == tag:
             text = " ".join("".join(self._text_capture).split())
             if tag in {"h1", "h2", "h3"}:
@@ -60,10 +68,13 @@ class HomepageParser(HTMLParser):
                 self._in_recent_news = False
 
     def handle_data(self, data):
+        self.text_nodes.append(data)
         if self._capture_tag:
             self._text_capture.append(data)
         if self._active_link is not None:
             self._active_link["text"] += data
+        if self._active_strikethrough is not None:
+            self._active_strikethrough.append(data)
 
 
 class HomepageAcceptanceTests(unittest.TestCase):
@@ -140,6 +151,11 @@ class HomepageAcceptanceTests(unittest.TestCase):
                 re.DOTALL,
             ),
         )
+
+    def test_about_marks_prior_years_complete_and_shows_fourth_year(self):
+        self.assertEqual(self.parser.strikethroughs, ["FIRST", "SECOND", "3rd"])
+        visible_text = " ".join("".join(self.parser.text_nodes).split())
+        self.assertIn("FIRST SECOND 3rd 4th year Ph.D. student", visible_text)
 
     def test_navigation_uses_bold_active_state_without_orange_focus_outline(self):
         self.assertIn("is-active", self.html)
