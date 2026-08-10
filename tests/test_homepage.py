@@ -142,16 +142,16 @@ class HomepageAcceptanceTests(unittest.TestCase):
             self.html,
         )
 
-    def test_about_keeps_the_original_heading_scale_and_uses_larger_body_text(self):
+    def test_about_keeps_the_original_heading_scale_and_uses_default_body_text(self):
         self.assertIn('<div class="about-intro">', self.html)
         self.assertRegex(
             self.css,
             re.compile(r"h1\s*\{[^}]*font-size:\s*1\.4em", re.DOTALL),
         )
-        self.assertRegex(
+        self.assertNotRegex(
             self.css,
             re.compile(
-                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1\.08em",
+                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:",
                 re.DOTALL,
             ),
         )
