@@ -151,7 +151,7 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertRegex(
             self.css,
             re.compile(
-                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1\.15em",
+                r"\.page__content\s+\.about-intro\s*\{[^}]*font-size:\s*1\.08em",
                 re.DOTALL,
             ),
         )
