@@ -130,8 +130,8 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 # Invited Talks
 
-- *2026.07:* **Harbin Institute of Technology** — “Beyond Perception: Neural Fields for Spatial Intelligence from Multi-Source Propagation Signals”
-- *2026.07:* **Dalian University of Technology** — “Beyond Perception: Neural Fields for Spatial Intelligence from Multi-Source Propagation Signals”
+- *2026.07:* **Harbin Institute of Technology** — “Beyond Perception: Spatial Intelligence from Multimodal Propagation Signals”
+- *2026.07:* **Dalian University of Technology** — “Beyond Perception: Spatial Intelligence from Multimodal Propagation Signals”
 
 # Professional Services
 - **TPC Member**  
