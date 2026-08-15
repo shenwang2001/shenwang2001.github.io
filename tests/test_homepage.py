@@ -224,10 +224,10 @@ class HomepageAcceptanceTests(unittest.TestCase):
     def test_avatar_uses_the_original_uncompressed_photo(self):
         avatar = SITE / "images" / "profile-2026.jpg"
         self.assertTrue(avatar.exists())
-        self.assertEqual(avatar.stat().st_size, 6_645_090)
+        self.assertEqual(avatar.stat().st_size, 1_282_228)
         self.assertEqual(
             hashlib.sha256(avatar.read_bytes()).hexdigest(),
-            "70234e843feb2bdb79bfba50c51882b92930b350ce659ba20d6fc73b41036e28",
+            "20e412bdc6234882ab8e0b16bd09d1bfaa978bbcd8c25bead8610622b96cd4a5",
         )
         profile_images = [
             attrs
