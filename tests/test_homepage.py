@@ -1,3 +1,4 @@
+import hashlib
 import os
 import re
 import shutil
@@ -193,11 +194,10 @@ class HomepageAcceptanceTests(unittest.TestCase):
         visible_text = " ".join("".join(self.parser.text_nodes).split())
         self.assertIn("Harbin Institute of Technology", visible_text)
         self.assertIn("Dalian University of Technology", visible_text)
-        self.assertEqual(visible_text.count("July 2026"), 2)
+        self.assertEqual(visible_text.count("2026.07"), 2)
         self.assertEqual(
             visible_text.count(
-                "Beyond Perception: Neural Fields for Spatial Intelligence from "
-                "Multi-Source Propagation Signals"
+                "Beyond Perception: Spatial Intelligence from Multimodal Propagation Signals"
             ),
             2,
         )
@@ -221,17 +221,21 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertTrue(og_image.endswith("/images/WechatIMG1956.webp"))
         self.assertEqual(og_type, "profile")
 
-    def test_avatar_uses_a_compact_webp_asset(self):
-        avatar = SITE / "images" / "WechatIMG1956.webp"
+    def test_avatar_uses_the_original_uncompressed_photo(self):
+        avatar = SITE / "images" / "profile-2026.jpg"
         self.assertTrue(avatar.exists())
-        self.assertLess(avatar.stat().st_size, 150 * 1024)
+        self.assertEqual(avatar.stat().st_size, 6_645_090)
+        self.assertEqual(
+            hashlib.sha256(avatar.read_bytes()).hexdigest(),
+            "70234e843feb2bdb79bfba50c51882b92930b350ce659ba20d6fc73b41036e28",
+        )
         profile_images = [
             attrs
             for tag, attrs in self.parser.tags
             if tag == "img" and "author__avatar" in attrs.get("class", "").split()
         ]
         self.assertEqual(len(profile_images), 1)
-        self.assertEqual(profile_images[0].get("src"), "images/WechatIMG1956.webp")
+        self.assertEqual(profile_images[0].get("src"), "images/profile-2026.jpg")
 
 
 if __name__ == "__main__":
