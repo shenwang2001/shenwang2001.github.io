@@ -78,11 +78,11 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <p>In Proc. of <em>ACM IMWUT / UbiComp</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
-<!-- <li>
+<li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> A Scalable Full-Stack System for High-Precision Industrial Vibration Monitoring</p>
 <p>Lingang Li, Shihan Zhao, <strong><u>Shen Wang</u></strong>, Lei Yang</p>
 <p>In Proc. of <em>ACM MobiCom</em>, 2026. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
-</li> -->
+</li> 
 
 <li>
 <p><span style="display: inline-block; background-color: #7650a8; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">KDD'26</span> CityWeave: Weaving User Needs and World Constraints for Personalized and Reliable Mobility Planning <span style="color: #d32f2f;"><strong>(Oral)</strong></span></p>
