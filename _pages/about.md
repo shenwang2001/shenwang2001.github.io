@@ -25,8 +25,8 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-
-* *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
+- *2024.06*: &nbsp;🎉🎉 Our **GenRF** has been accepted at ACM Sensys 2027.
+- *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
 - *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
@@ -42,11 +42,11 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 <ol>
 
-<!-- <li>
-<p><span style="display: inline-block; background-color: #6A4C93; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SenSys 2027</span> GenRF: Reconstruct Any Radio Field in a Feed-Forward Process</p>
+<li>
+<p><span style="display: inline-block; background-color: #6A4C93; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SenSys'27</span> GenRF: Reconstruct Any Radio Field in a Feed-Forward Process</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Junyang Liu, Lei Yang</p>
 <p>In <em>ACM/IEEE SenSys</em>, 2027. <span style="color: #d32f2f;">(CORE A*, CCF-B Conference)</span></p>
-</li> -->
+</li>
 
 <li>
 <p><span style="display: inline-block; background-color: #356859; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC 2026</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
