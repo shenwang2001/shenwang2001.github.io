@@ -26,7 +26,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
-- *2026.06*: &nbsp;🎉🎉 One paper has been accepted at IEEE TMC.
+- *2026.06*: &nbsp;🎉🎉 Our **MoRE+** has been accepted at IEEE TMC.
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
 - *2026.03*: &nbsp;🎉🎉 One paper has been accepted at IEEE SECON 2026.
 - *2025.12*: &nbsp;🎉🎉 Our **SIGN-RF** has been accepted at IEEE INFOCOM 2026.
