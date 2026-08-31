@@ -25,7 +25,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <span class='anchor' id='news'></span>
 
 # 🔥 News
-- *2026.09*: &nbsp;🎉🎉 Our **GenR+** has been conditional accepted at ACM/IEEE Sensys 2027.
+- *2026.09*: &nbsp;🎉🎉 Our **GenRF** has been conditional accepted at ACM/IEEE Sensys 2027.
 - *2026.08*: &nbsp;🎉🎉 One paper has been accepted at ACM MobiCom 2026, one paper has been accepted at ACM UbiComp 2026.
 - *2026.06*: &nbsp;🎉🎉 Our **MoRE+** has been accepted at IEEE TMC.
 - *2026.05*: &nbsp;🎉🎉 One paper has been accepted at KDD 2026 as **Oral** presentation.
