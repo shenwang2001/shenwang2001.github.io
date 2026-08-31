@@ -48,11 +48,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 </li> -->
 
-<li>
-<p><span style="display: inline-block; background-color: #356859; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC 2026</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
-<p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
-<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
-</li>
+
 
 <li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts</p>
@@ -70,6 +66,12 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
 <p><strong><u>Shen Wang</u>*</strong>, Xiaopeng Zhao*, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>ACM MobiCom</em>, 2024. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
+</li>
+
+<li>
+<p><span style="display: inline-block; background-color: #356859; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC 2026</span> Scaling Neural Radio Radiance Fields to City-Scale: A Mixture of Experts Approach</p>
+<p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Donghui Dai, Lei Yang</p>
+<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
 </li>
 
 <li>
