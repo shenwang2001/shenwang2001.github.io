@@ -22,7 +22,22 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 </div>
 
-<span class='anchor' id='news'></span>
+
+# Education
+
+- *2023 - Present*<br>
+  <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU">
+  **<span style="color: #83212c;"><strong>The Hong Kong Polytechnic University (PolyU)</strong></span>**
+  <br>
+  *Ph.D. Candidate in the Department of Computing*
+
+- *2019 - 2023*<br>
+  <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT">
+  **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
+  <br>
+  *B.Eng. in Computer Science and Technology*
+
+<!-- <span class='anchor' id='news'></span>
 
 # 🔥 News
 - *2026.09*: &nbsp;🎉🎉 Our **GenRF** has been conditional accepted at ACM SenSys 2027.
@@ -35,7 +50,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2024.07*: &nbsp;🎉🎉 Our **GaRF** has been accepted at ACM UbiComp 2024.
 - *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
 
-<span class='anchor' id='publications'></span>
+<span class='anchor' id='publications'></span> -->
 
 # 📝 Publications
 <p><em>* denotes equal contribution</em></p>
@@ -123,19 +138,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 
-# Education
 
-- *2023 - Present*<br>
-  <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU">
-  **<span style="color: #83212c;"><strong>The Hong Kong Polytechnic University (PolyU)</strong></span>**
-  <br>
-  *Ph.D. Candidate in the Department of Computing*
-
-- *2019 - 2023*<br>
-  <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT">
-  **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
-  <br>
-  *B.Eng. in Computer Science and Technology*
 
 # Invited Talks
 
