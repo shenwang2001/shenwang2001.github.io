@@ -25,16 +25,26 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 # Education
 
-- <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU"> *2023 - Present*, 
-  **<span style="color: #83212c;"><strong>The Hong Kong Polytechnic University (PolyU)</strong></span>**
-  <br>
-  *Ph.D. Candidate in the Department of Computing*
-
-
-- <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT"> *2019 - 2023*, 
-  **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
-  <br>
-  *B.Eng. in Computer Science and Technology*
+<ul class="education-list">
+  <li class="education-item">
+    <div class="education-logo">
+      <img src="images/PolyU.svg" alt="PolyU">
+    </div>
+    <div class="education-details">
+      <div class="education-title"><strong style="color: #83212c;">The Hong Kong Polytechnic University (PolyU)</strong>, Ph.D. Candidate in the Department of Computing</div>
+      <div class="education-meta"><em>2023 - Present</em></div>
+    </div>
+  </li>
+  <li class="education-item">
+    <div class="education-logo">
+      <img src="images/HIT.svg" alt="HIT">
+    </div>
+    <div class="education-details">
+      <div class="education-title"><strong style="color: #245372;">Harbin Institute of Technology (HIT)</strong>, B.Eng. in Computer Science and Technology</div>
+      <div class="education-meta"><em>2019 - 2023</em></div>
+    </div>
+  </li>
+</ul>
   
 <!-- <span class='anchor' id='news'></span>
 - *2019 - 2023*<br>

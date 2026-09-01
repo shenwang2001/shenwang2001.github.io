@@ -107,3 +107,56 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.education-list {
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.education-item {
+    display: grid;
+    grid-template-columns: 132px minmax(0, 1fr);
+    align-items: center;
+    gap: 1em;
+    padding: 1em 0;
+    border-bottom: 1px solid $border-color;
+}
+
+.education-logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 124px;
+    height: 40px;
+}
+
+.education-logo img {
+    width: auto;
+    max-width: 124px;
+    height: auto;
+    max-height: 40px;
+    object-fit: contain;
+    object-position: left center;
+}
+
+.education-details {
+    min-width: 0;
+}
+
+.education-title {
+    line-height: 1.5;
+}
+
+.education-meta {
+    margin-top: .25em;
+    color: $gray;
+}
+
+@media (max-width: 767px) {
+    .education-item {
+        grid-template-columns: 1fr;
+        align-items: start;
+        gap: .75em;
+    }
+}
