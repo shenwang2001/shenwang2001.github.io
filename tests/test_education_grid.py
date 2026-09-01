@@ -23,14 +23,14 @@ class EducationGridTests(unittest.TestCase):
         self.assertRegex(
             self.styles,
             re.compile(
-                r"\.education-item\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*56px\s+minmax\(0,\s*1fr\)",
+                r"\.education-item\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*48px\s+minmax\(0,\s*1fr\)[^}]*gap:\s*\.25em",
                 re.DOTALL,
             ),
         )
         self.assertRegex(
             self.styles,
             re.compile(
-                r"\.education-logo\s*\{[^}]*width:\s*56px;[^}]*height:\s*56px",
+                r"\.education-logo\s*\{[^}]*width:\s*48px;[^}]*height:\s*48px",
                 re.DOTALL,
             ),
         )
@@ -46,7 +46,7 @@ class EducationGridTests(unittest.TestCase):
         self.assertRegex(
             self.styles,
             re.compile(
-                r"@media\s*\(max-width:\s*767px\)[\s\S]*?\.education-item\s*\{[^}]*grid-template-columns:\s*56px\s+minmax\(0,\s*1fr\)",
+                r"@media\s*\(max-width:\s*767px\)[\s\S]*?\.education-item\s*\{[^}]*grid-template-columns:\s*48px\s+minmax\(0,\s*1fr\)[^}]*gap:\s*\.25em",
                 re.DOTALL,
             ),
         )
