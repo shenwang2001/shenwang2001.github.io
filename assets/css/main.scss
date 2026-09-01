@@ -128,8 +128,9 @@ h1:before, .anchor:before {
 }
 
 .education-school img {
-    height: 20px;
-    width: auto;
+    height: 20px !important;
+    width: auto !important;
+    max-width: none !important;
     vertical-align: middle;
     margin-right: 8px;
 }
