@@ -74,7 +74,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <li>
 <p><span style="display: inline-block; background-color: #6A4C93; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">SenSys'27</span> GenRF: Reconstruct Any Radio Field in a Feed-Forward Process</p>
 <p><strong><u>Shen Wang</u></strong>, Guosheng Wang, Junyang Liu, Lei Yang</p>
-<p>In <em>ACM SenSys</em>, 2027. <span style="color: #d32f2f;">(CORE A*, CCF-B Conference)</span></p>
+<p>In Proc. of <em>ACM SenSys</em>, 2027. <span style="color: #d32f2f;">(CORE A*, CCF-B Conference)</span></p>
 
 </li>
 
