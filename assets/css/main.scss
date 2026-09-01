@@ -107,3 +107,52 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+
+.education-list {
+    margin-top: 0;
+}
+
+.education-item {
+    margin-bottom: 1.25em;
+}
+
+.education-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.education-school {
+    min-width: 0;
+}
+
+.education-school img {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.education-date {
+    flex: 0 0 auto;
+    margin-left: auto;
+    white-space: nowrap;
+}
+
+.education-degree {
+    margin-left: 28px;
+    margin-top: .25em;
+}
+
+@media (max-width: 480px) {
+    .education-header {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: .25em .75em;
+    }
+
+    .education-date {
+        margin-left: 28px;
+    }
+}
