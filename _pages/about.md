@@ -22,22 +22,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 </div>
 
-
-# Education
-
-- *2023 - Present*  
-  <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU"> 
-  **<span style="color: #83212c;"><strong>The Hong Kong Polytechnic University (PolyU)</strong></span>**
-  <br>
-  *Ph.D. Candidate in the Department of Computing*
-
-- *2019 - 2023*  
-  <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT"> 
-  **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
-  <br>
-  *B.Eng. in Computer Science and Technology*
-
-<!-- <span class='anchor' id='news'></span>
+<span class='anchor' id='news'></span>
 
 # 🔥 News
 - *2026.09*: &nbsp;🎉🎉 Our **GenRF** has been conditional accepted at ACM SenSys 2027.
@@ -50,7 +35,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2024.07*: &nbsp;🎉🎉 Our **GaRF** has been accepted at ACM UbiComp 2024.
 - *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
 
-<span class='anchor' id='publications'></span> -->
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications
 <p><em>* denotes equal contribution</em></p>
@@ -138,7 +123,24 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2021:* First Grade Scholarship of H.I.T.
 - *2020:* Outstanding Student of H.I.T.
 
+# Education
 
+<ul class="education-list">
+  <li class="education-item">
+    <div class="education-header">
+      <span class="education-school"><img src="images/PolyU.svg" alt="PolyU"> <strong style="color: #83212c;">The Hong Kong Polytechnic University (PolyU)</strong></span>
+      <span class="education-date"><em>2023 - Present</em></span>
+    </div>
+    <div class="education-degree"><em>Ph.D. Candidate in the Department of Computing</em></div>
+  </li>
+  <li class="education-item">
+    <div class="education-header">
+      <span class="education-school"><img src="images/HIT.svg" alt="HIT"> <strong style="color: #245372;">Harbin Institute of Technology (HIT)</strong></span>
+      <span class="education-date"><em>2019 - 2023</em></span>
+    </div>
+    <div class="education-degree"><em>B.Eng. in Computer Science and Technology</em></div>
+  </li>
+</ul>
 
 # Invited Talks
 
