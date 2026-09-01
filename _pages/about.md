@@ -62,7 +62,9 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2024.07*: &nbsp;🎉🎉 Our **GaRF** has been accepted at ACM UbiComp 2024.
 - *2024.06*: &nbsp;🎉🎉 Our **RP-NeRF** has been accepted at ACM MobiCom 2024.
 
-<span class='anchor' id='publications'></span> -->
+-->
+
+<span class='anchor' id='publications'></span>
 
 # 📝 Publications
 <p><em>* denotes equal contribution</em></p>
