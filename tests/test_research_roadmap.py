@@ -46,6 +46,8 @@ class ResearchRoadmapTests(unittest.TestCase):
             "INFOCOM ’26",
             "MoRE",
             "MobiCom ’26",
+            "MoRE+",
+            "TMC ’26",
             "(C) Generalization",
             "GenRF",
             "SenSys ’27",
@@ -54,15 +56,32 @@ class ResearchRoadmapTests(unittest.TestCase):
         for text in expected_copy:
             self.assertIn(text, about)
 
-    def test_timeline_has_desktop_alignment_and_mobile_stacking(self):
+    def test_timeline_centers_match_the_reference_landmarks(self):
         styles = STYLES.read_text(encoding="utf-8")
         self.assertRegex(
             styles,
             re.compile(
-                r"\.research-roadmap__stages\s*\{[^}]*grid-template-columns:\s*repeat\(4,\s*1fr\)",
+                r"\.research-roadmap__stages\s*\{[^}]*position:\s*relative",
                 re.DOTALL,
             ),
         )
+        expected_positions = {
+            "reconstruction": "15.86%",
+            "scalability": "38.70%",
+            "generalization": "61.54%",
+            "reasoning": "84.38%",
+        }
+        for stage, position in expected_positions.items():
+            self.assertRegex(
+                styles,
+                re.compile(
+                    rf"\.research-roadmap__stage--{stage}\s*\{{[^}}]*--roadmap-position:\s*{re.escape(position)}",
+                    re.DOTALL,
+                ),
+            )
+
+    def test_timeline_has_desktop_axis_and_mobile_stacking(self):
+        styles = STYLES.read_text(encoding="utf-8")
         self.assertRegex(
             styles,
             re.compile(r"\.research-roadmap__axis\s*\{[^}]*position:\s*relative", re.DOTALL),
@@ -70,7 +89,7 @@ class ResearchRoadmapTests(unittest.TestCase):
         self.assertRegex(
             styles,
             re.compile(
-                r"@media\s*\(max-width:\s*767px\)[\s\S]*?\.research-roadmap__stages\s*\{[^}]*grid-template-columns:\s*1fr",
+                r"@media\s*\(max-width:\s*767px\)[\s\S]*?\.research-roadmap__stages\s*\{[^}]*grid-template-columns:\s*1fr[\s\S]*?\.research-roadmap__stage\s*\{[^}]*position:\s*static",
                 re.DOTALL,
             ),
         )

@@ -38,6 +38,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
         <strong class="research-roadmap__title">(B) Scalability</strong>
         <span class="research-roadmap__paper"><strong>SIGN-RF</strong> <span>[INFOCOM ’26]</span></span>
         <span class="research-roadmap__paper"><strong>MoRE</strong> <span>[MobiCom ’26]</span></span>
+        <span class="research-roadmap__paper"><strong>MoRE+</strong> <span>[TMC ’26]</span></span>
       </div>
       <div class="research-roadmap__stage research-roadmap__stage--generalization">
         <span class="research-roadmap__marker" aria-hidden="true"></span>
