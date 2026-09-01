@@ -119,8 +119,9 @@ h1:before, .anchor:before {
 .education-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 1em;
+    justify-content: flex-start;
+    gap: .5em;
+    flex-wrap: nowrap;
 }
 
 .education-school {
@@ -137,7 +138,6 @@ h1:before, .anchor:before {
 
 .education-date {
     flex: 0 0 auto;
-    margin-left: auto;
     white-space: nowrap;
 }
 
@@ -151,9 +151,5 @@ h1:before, .anchor:before {
         align-items: flex-start;
         flex-wrap: wrap;
         gap: .25em .75em;
-    }
-
-    .education-date {
-        margin-left: 28px;
     }
 }
