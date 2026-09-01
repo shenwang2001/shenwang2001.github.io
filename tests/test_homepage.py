@@ -221,13 +221,13 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertTrue(og_image.endswith("/images/WechatIMG1956.webp"))
         self.assertEqual(og_type, "profile")
 
-    def test_avatar_uses_the_original_uncompressed_photo(self):
-        avatar = SITE / "images" / "profile-2026.jpg"
+    def test_avatar_uses_the_latest_requested_photo(self):
+        avatar = SITE / "images" / "profile-2026.png"
         self.assertTrue(avatar.exists())
-        self.assertEqual(avatar.stat().st_size, 1_282_228)
+        self.assertEqual(avatar.stat().st_size, 312_332)
         self.assertEqual(
             hashlib.sha256(avatar.read_bytes()).hexdigest(),
-            "20e412bdc6234882ab8e0b16bd09d1bfaa978bbcd8c25bead8610622b96cd4a5",
+            "f0594d53ea0fbb48d4823a9144b4ed009544820fe0eaa98d4f9c2e7260ce432c",
         )
         profile_images = [
             attrs
@@ -235,7 +235,7 @@ class HomepageAcceptanceTests(unittest.TestCase):
             if tag == "img" and "author__avatar" in attrs.get("class", "").split()
         ]
         self.assertEqual(len(profile_images), 1)
-        self.assertEqual(profile_images[0].get("src"), "images/profile-2026.jpg")
+        self.assertEqual(profile_images[0].get("src"), "images/profile-2026.png")
 
 
 if __name__ == "__main__":
