@@ -128,15 +128,15 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <ul class="education-list">
   <li class="education-item">
     <div class="education-header">
+      <span class="education-date"><em>2023 - Present</em>,</span>
       <span class="education-school"><img src="images/PolyU.svg" style="height: 20px !important; width: auto !important; max-width: none !important;" alt="PolyU"> <strong style="color: #83212c;">The Hong Kong Polytechnic University (PolyU)</strong></span>
-      <span class="education-date"><em>2023 - Present</em></span>
     </div>
     <div class="education-degree"><em>Ph.D. Candidate in the Department of Computing</em></div>
   </li>
   <li class="education-item">
     <div class="education-header">
+      <span class="education-date"><em>2019 - 2023</em>,</span>
       <span class="education-school"><img src="images/HIT.svg" style="height: 20px !important; width: auto !important; max-width: none !important;" alt="HIT"> <strong style="color: #245372;">Harbin Institute of Technology (HIT)</strong></span>
-      <span class="education-date"><em>2019 - 2023</em></span>
     </div>
     <div class="education-degree"><em>B.Eng. in Computer Science and Technology</em></div>
   </li>
