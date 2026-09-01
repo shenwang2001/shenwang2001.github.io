@@ -23,18 +23,38 @@ class EducationGridTests(unittest.TestCase):
         self.assertRegex(
             self.styles,
             re.compile(
-                r"\.education-item\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*132px",
+                r"\.education-item\s*\{[^}]*display:\s*grid;[^}]*grid-template-columns:\s*56px\s+minmax\(0,\s*1fr\)",
                 re.DOTALL,
             ),
         )
         self.assertRegex(
             self.styles,
-            re.compile(r"\.education-logo img\s*\{[^}]*max-height:\s*40px", re.DOTALL),
+            re.compile(
+                r"\.education-logo\s*\{[^}]*width:\s*56px;[^}]*height:\s*56px",
+                re.DOTALL,
+            ),
         )
         self.assertRegex(
             self.styles,
-            re.compile(r"@media\s*\(max-width:\s*767px\)[^}]*\{", re.DOTALL),
+            re.compile(
+                r"\.education-logo img\s*\{[^}]*width:\s*100%;[^}]*height:\s*100%;[^}]*object-fit:\s*contain",
+                re.DOTALL,
+            ),
         )
+
+    def test_mobile_keeps_logo_and_text_on_the_same_row(self):
+        self.assertRegex(
+            self.styles,
+            re.compile(
+                r"@media\s*\(max-width:\s*767px\)[\s\S]*?\.education-item\s*\{[^}]*grid-template-columns:\s*56px\s+minmax\(0,\s*1fr\)",
+                re.DOTALL,
+            ),
+        )
+
+    def test_research_roadmap_is_removed(self):
+        self.assertNotIn('class="research-roadmap', self.about)
+        self.assertNotIn('images/research-roadmap.png', self.about)
+        self.assertNotIn('.research-roadmap', self.styles)
 
 
 if __name__ == "__main__":

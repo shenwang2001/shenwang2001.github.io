@@ -22,38 +22,6 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 </div>
 
-<figure class="research-roadmap">
-  <img class="research-roadmap__image" src="images/research-roadmap.png" width="3840" height="846" alt="Research roadmap from indoor wireless reconstruction to city-scale systems, generalizable models, and spatial reasoning and action">
-  <figcaption class="research-roadmap__timeline">
-    <div class="research-roadmap__axis" aria-hidden="true"></div>
-    <div class="research-roadmap__stages">
-      <div class="research-roadmap__stage research-roadmap__stage--reconstruction">
-        <span class="research-roadmap__marker" aria-hidden="true"></span>
-        <strong class="research-roadmap__title">(A) Reconstruction</strong>
-        <span class="research-roadmap__paper"><strong>RP-NeRF</strong> <span>[MobiCom ’24]</span></span>
-        <span class="research-roadmap__paper"><strong>SaRF</strong> <span>[UbiComp ’24]</span></span>
-      </div>
-      <div class="research-roadmap__stage research-roadmap__stage--scalability">
-        <span class="research-roadmap__marker" aria-hidden="true"></span>
-        <strong class="research-roadmap__title">(B) Scalability</strong>
-        <span class="research-roadmap__paper"><strong>SIGN-RF</strong> <span>[INFOCOM ’26]</span></span>
-        <span class="research-roadmap__paper"><strong>MoRE</strong> <span>[MobiCom ’26]</span></span>
-        <span class="research-roadmap__paper"><strong>MoRE+</strong> <span>[TMC ’26]</span></span>
-      </div>
-      <div class="research-roadmap__stage research-roadmap__stage--generalization">
-        <span class="research-roadmap__marker" aria-hidden="true"></span>
-        <strong class="research-roadmap__title">(C) Generalization</strong>
-        <span class="research-roadmap__paper"><strong>GenRF</strong> <span>[SenSys ’27]</span></span>
-      </div>
-      <div class="research-roadmap__stage research-roadmap__stage--reasoning">
-        <span class="research-roadmap__marker" aria-hidden="true"></span>
-        <strong class="research-roadmap__title">(D) Reasoning &amp; Action</strong>
-      </div>
-    </div>
-  </figcaption>
-</figure>
-
-
 # Education
 
 <ul class="education-list">
