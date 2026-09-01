@@ -108,6 +108,98 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+.research-roadmap {
+    margin: 1.5em 0 2em;
+}
+
+.research-roadmap__image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.research-roadmap__timeline {
+    margin-top: .75em;
+}
+
+.research-roadmap__axis {
+    position: relative;
+    height: 2px;
+    margin: 0 1.2em;
+    background: #26394b;
+}
+
+.research-roadmap__axis::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: -.55em;
+    width: 0;
+    height: 0;
+    border-top: .3em solid transparent;
+    border-bottom: .3em solid transparent;
+    border-left: .55em solid #26394b;
+    transform: translateY(-50%);
+}
+
+.research-roadmap__stages {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1em;
+}
+
+.research-roadmap__stage {
+    --roadmap-accent: #26394b;
+    min-width: 0;
+    text-align: center;
+}
+
+.research-roadmap__stage--reconstruction {
+    --roadmap-accent: #0876b7;
+}
+
+.research-roadmap__stage--scalability {
+    --roadmap-accent: #eb7100;
+}
+
+.research-roadmap__stage--generalization {
+    --roadmap-accent: #009b4d;
+}
+
+.research-roadmap__stage--reasoning {
+    --roadmap-accent: #8b4db2;
+}
+
+.research-roadmap__marker {
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: -6px auto .55em;
+    border-radius: 50%;
+    background: var(--roadmap-accent);
+}
+
+.research-roadmap__title,
+.research-roadmap__paper {
+    display: block;
+}
+
+.research-roadmap__title {
+    margin-bottom: .25em;
+    color: var(--roadmap-accent);
+    font-size: 1.05em;
+    line-height: 1.25;
+}
+
+.research-roadmap__paper {
+    font-size: .82em;
+    line-height: 1.35;
+}
+
+.research-roadmap__paper > span {
+    color: $gray;
+}
+
 .education-list {
     margin-top: 0;
     padding: 0;
@@ -154,6 +246,35 @@ h1:before, .anchor:before {
 }
 
 @media (max-width: 767px) {
+    .research-roadmap {
+        margin-top: 1em;
+    }
+
+    .research-roadmap__axis {
+        display: none;
+    }
+
+    .research-roadmap__stages {
+        grid-template-columns: 1fr;
+        gap: .65em;
+        margin-top: 1em;
+    }
+
+    .research-roadmap__stage {
+        padding: .7em .9em;
+        border-left: 3px solid var(--roadmap-accent);
+        background: mix(#fff, $border-color, 65%);
+        text-align: left;
+    }
+
+    .research-roadmap__marker {
+        display: none;
+    }
+
+    .research-roadmap__title {
+        font-size: 1em;
+    }
+
     .education-item {
         grid-template-columns: 1fr;
         align-items: start;
