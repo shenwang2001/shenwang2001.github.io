@@ -25,7 +25,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 # Education
 
-- *2023 - Present*<br>
+- *2023 - Present*, 
   <img src="images/PolyU.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="PolyU">
   **<span style="color: #83212c;"><strong>The Hong Kong Polytechnic University (PolyU)</strong></span>**
   <br>
