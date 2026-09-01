@@ -116,9 +116,9 @@ h1:before, .anchor:before {
 
 .education-item {
     display: grid;
-    grid-template-columns: 56px minmax(0, 1fr);
+    grid-template-columns: 48px minmax(0, 1fr);
     align-items: center;
-    gap: .8em;
+    gap: .25em;
     padding: 1em 0;
     border-bottom: 1px solid $border-color;
 }
@@ -127,8 +127,8 @@ h1:before, .anchor:before {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 56px;
-    height: 56px;
+    width: 48px;
+    height: 48px;
 }
 
 .education-logo img {
@@ -153,8 +153,8 @@ h1:before, .anchor:before {
 
 @media (max-width: 767px) {
     .education-item {
-        grid-template-columns: 56px minmax(0, 1fr);
+        grid-template-columns: 48px minmax(0, 1fr);
         align-items: center;
-        gap: .65em;
+        gap: .25em;
     }
 }
