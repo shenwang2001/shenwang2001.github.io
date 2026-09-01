@@ -30,12 +30,6 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
   <br>
   *Ph.D. Candidate in the Department of Computing*
 
-- *2019 - 2023*<br>
-  <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT">
-  **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
-  <br>
-  *B.Eng. in Computer Science and Technology*
-
 
 - <img src="images/HIT.svg" style="height: 20px !important; vertical-align: middle; margin-right: 8px;" alt="HIT"> *2019 - 2023*
   **<span style="color: #245372;"><strong>Harbin Institute of Technology (HIT)</strong></span>**
