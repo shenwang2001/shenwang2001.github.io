@@ -136,8 +136,26 @@
   font-size: $type-size-4;
 }
 
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lxgwwenkai-bold-subset-115.woff2") format("woff2");
+  unicode-range: U+7533;
+}
+
+@font-face {
+  font-family: "LXGW WenKai";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/lxgwwenkai-bold-subset-116.woff2") format("woff2");
+  unicode-range: U+738B;
+}
+
 .author__name-zh {
-  font-family: KaiTi, "Kaiti SC", STKaiti, KaiTi_GB2312, serif;
+  font-family: "LXGW WenKai", KaiTi, "Kaiti SC", STKaiti, KaiTi_GB2312, serif;
 }
 
 .author__bio {
