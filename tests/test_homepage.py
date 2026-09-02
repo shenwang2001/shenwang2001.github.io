@@ -186,6 +186,16 @@ class HomepageAcceptanceTests(unittest.TestCase):
         ]:
             self.assertIn(section, h1s)
 
+    def test_chinese_author_name_uses_kaiti_without_affecting_english_name(self):
+        self.assertIn(
+            'Shen Wang(<span class="author__name-zh" lang="zh-Hans">王申</span>)',
+            self.html,
+        )
+        style = re.search(r"\.author__name-zh\{([^}]*)\}", self.css)
+        self.assertIsNotNone(style)
+        declarations = style.group(1).replace(" ", "")
+        self.assertIn('font-family:KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif', declarations)
+
     def test_invited_talks_section_renders_below_education(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]
         self.assertIn("Invited Talks", h1s)
