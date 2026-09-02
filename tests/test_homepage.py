@@ -174,7 +174,7 @@ class HomepageAcceptanceTests(unittest.TestCase):
     def test_document_outline_keeps_original_section_h1s_and_author_h3(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]
         h3s = [text for tag, text in self.parser.headings if tag == "h3"]
-        self.assertEqual(h3s, ["Shen Wang(王申)"])
+        self.assertEqual(h3s, ["Shen Wang 王申"])
         for section in [
             "About me",
             "🔥 News",
@@ -186,9 +186,9 @@ class HomepageAcceptanceTests(unittest.TestCase):
         ]:
             self.assertIn(section, h1s)
 
-    def test_chinese_author_name_uses_kaiti_without_affecting_english_name(self):
+    def test_chinese_author_name_uses_kaiti_and_is_space_separated(self):
         self.assertIn(
-            'Shen Wang(<span class="author__name-zh" lang="zh-Hans">王申</span>)',
+            'Shen Wang <span class="author__name-zh" lang="zh-Hans">王申</span>',
             self.html,
         )
         style = re.search(r"\.author__name-zh\{([^}]*)\}", self.css)
