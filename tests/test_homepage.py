@@ -197,23 +197,19 @@ class HomepageAcceptanceTests(unittest.TestCase):
         self.assertIn('KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif', declarations)
 
     def test_chinese_author_name_loads_a_bundled_mobile_font(self):
-        font_files = [
-            "lxgwwenkai-bold-subset-115.woff2",
-            "lxgwwenkai-bold-subset-116.woff2",
-        ]
+        font_files = ["ma-shan-zheng-regular-wang-shen.woff2"]
         for filename in font_files:
             built_font = SITE / "assets" / "fonts" / filename
             self.assertTrue(built_font.exists(), f"Missing bundled font: {filename}")
             self.assertEqual(built_font.read_bytes()[:4], b"wOF2")
             self.assertIn(f'url("../fonts/{filename}")', self.css)
 
-        self.assertIn("unicode-range:U+7533", self.css)
-        self.assertIn("unicode-range:U+738B", self.css)
+        self.assertIn("unicode-range:U+738B,U+7533", self.css)
         style = re.search(r"\.author__name-zh\{([^}]*)\}", self.css)
         self.assertIsNotNone(style)
         declarations = style.group(1).replace(" ", "")
         self.assertIn(
-            'font-family:"LXGWWenKai",KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif',
+            'font-family:"MaShanZheng",KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif',
             declarations,
         )
 
