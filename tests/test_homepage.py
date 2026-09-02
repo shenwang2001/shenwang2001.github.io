@@ -194,7 +194,28 @@ class HomepageAcceptanceTests(unittest.TestCase):
         style = re.search(r"\.author__name-zh\{([^}]*)\}", self.css)
         self.assertIsNotNone(style)
         declarations = style.group(1).replace(" ", "")
-        self.assertIn('font-family:KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif', declarations)
+        self.assertIn('KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif', declarations)
+
+    def test_chinese_author_name_loads_a_bundled_mobile_font(self):
+        font_files = [
+            "lxgwwenkai-bold-subset-115.woff2",
+            "lxgwwenkai-bold-subset-116.woff2",
+        ]
+        for filename in font_files:
+            built_font = SITE / "assets" / "fonts" / filename
+            self.assertTrue(built_font.exists(), f"Missing bundled font: {filename}")
+            self.assertEqual(built_font.read_bytes()[:4], b"wOF2")
+            self.assertIn(f'url("../fonts/{filename}")', self.css)
+
+        self.assertIn("unicode-range:U+7533", self.css)
+        self.assertIn("unicode-range:U+738B", self.css)
+        style = re.search(r"\.author__name-zh\{([^}]*)\}", self.css)
+        self.assertIsNotNone(style)
+        declarations = style.group(1).replace(" ", "")
+        self.assertIn(
+            'font-family:"LXGWWenKai",KaiTi,"KaitiSC",STKaiti,KaiTi_GB2312,serif',
+            declarations,
+        )
 
     def test_invited_talks_section_renders_below_education(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]
