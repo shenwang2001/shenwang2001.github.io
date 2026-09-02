@@ -213,6 +213,12 @@ class HomepageAcceptanceTests(unittest.TestCase):
             declarations,
         )
 
+    def test_main_stylesheet_url_is_versioned_to_avoid_stale_browser_cache(self):
+        self.assertRegex(
+            self.html,
+            r'<link rel="stylesheet" href="assets/css/main\.css\?v=[^"\s]+">',
+        )
+
     def test_invited_talks_section_renders_below_education(self):
         h1s = [text for tag, text in self.parser.headings if tag == "h1"]
         self.assertIn("Invited Talks", h1s)
