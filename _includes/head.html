@@ -11,7 +11,8 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+{% assign css_version = site.github.build_revision | default: "local" %}
+<link rel="stylesheet" href="assets/css/main.css?v={{ css_version }}">
 <!-- 新 Favicon（SVG优先 + Apple + 96x96 + Manifest） -->
 <link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
