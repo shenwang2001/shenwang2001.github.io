@@ -137,25 +137,17 @@
 }
 
 @font-face {
-  font-family: "LXGW WenKai";
+  font-family: "Ma Shan Zheng";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-display: swap;
-  src: url("../fonts/lxgwwenkai-bold-subset-115.woff2") format("woff2");
-  unicode-range: U+7533;
-}
-
-@font-face {
-  font-family: "LXGW WenKai";
-  font-style: normal;
-  font-weight: 700;
-  font-display: swap;
-  src: url("../fonts/lxgwwenkai-bold-subset-116.woff2") format("woff2");
-  unicode-range: U+738B;
+  src: url("../fonts/ma-shan-zheng-regular-wang-shen.woff2") format("woff2");
+  unicode-range: U+738B, U+7533;
 }
 
 .author__name-zh {
-  font-family: "LXGW WenKai", KaiTi, "Kaiti SC", STKaiti, KaiTi_GB2312, serif;
+  font-family: "Ma Shan Zheng", KaiTi, "Kaiti SC", STKaiti, KaiTi_GB2312, serif;
+  font-weight: 400;
 }
 
 .author__bio {
