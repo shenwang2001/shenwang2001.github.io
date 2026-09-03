@@ -14,7 +14,7 @@ redirect_from:
 
 <div class="about-intro" markdown="1">
 
-Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> <s>THIRD</s> 4th year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank" rel="noopener noreferrer">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank" rel="noopener noreferrer">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I work on integrating visible light (vision) and wireless signals (RF) to enable high-fidelity, scalable spatial perception and reconstruction of real-world environments.
+Hi!👋 I am currently a <s>FIRST</s> <s>SECOND</s> <s>THIRD</s> 4th year Ph.D. student in the <a href="https://www.polyu.edu.hk/comp/" target="_blank" rel="noopener noreferrer">Department of Computing</a> at the Hong Kong Polytechnic University, under the supervision of Dr. <a href="https://www4.comp.polyu.edu.hk/~csyanglei/#/pages/profile/about" target="_blank" rel="noopener noreferrer">Lei Yang</a>. Previously, I received my B.E. from Harbin Institute of Technology. My main research interests are centered around **wireless spatial intelligence** and **3D vision**. Specifically, I aim to advance spatial reconstruction, understanding, and reasoning by jointly leveraging visual and wireless signals.
 
 <!-- <span style="color: #d32f2f; font-weight: bold;">
 I am on the 2026–2027 academic job market and am seeking faculty positions in wireless systems, spatial intelligence, and multimodal perception.
