@@ -99,7 +99,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 <li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'24</span> Mirror Never Lies: Unveiling Reflective Privacy Risks in Glass-laden Short Videos</p>
-<p><strong><u>Shen Wang</u></strong>, Xiaopeng Zhao, Donghui Dai, Lei Yang</p>
+<p><strong><u>Shen Wang*</u></strong>, Xiaopeng Zhao*, Donghui Dai, Lei Yang</p>
 <p>In Proc. of <em>ACM MobiCom</em>, 2024. <span style="color: #d32f2f;">(CCF-A Conference)</span></p>
 </li>
 
