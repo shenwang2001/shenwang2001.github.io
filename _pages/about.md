@@ -164,7 +164,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
   MobiCom 2026 Artifact Evaluation, IWCMC 2026, ISPA 2025, SpaCCS 2025
 
 - **Reviewer**  
-   IEEE TMC, KDD 2027, MASS 2026, KDD 2026, CHI 2026 Posters, IMWUT 2026, MobileHCI 2026
+   CHI 2027, IEEE TMC, KDD 2027, MASS 2026, KDD 2026, CHI 2026 Posters, IMWUT 2026
 
 # Teaching Experience
 - *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
