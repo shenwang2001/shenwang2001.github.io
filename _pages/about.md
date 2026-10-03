@@ -160,11 +160,13 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 - *2026.07:* **Dalian University of Technology** — “Beyond Perception: Spatial Intelligence from Multimodal Propagation Signals”
 
 # Professional Services
-- **TPC Member**  
-  MobiCom 2026 Artifact Evaluation, IWCMC 2026, ISPA 2025, SpaCCS 2025
+- **TPC Member**
+  - *2026:* MobiCom Artifact Evaluation, IWCMC, ISPA
+  - *2025:* ISPA, SpaCCS
 
-- **Reviewer**  
-   CHI 2027, IEEE TMC, KDD 2027, MASS 2026, KDD 2026, CHI 2026 Posters, IMWUT 2026
+- **Reviewer**
+  - *2027:* KDD, CHI
+  - *2026:* IEEE TMC, MASS, KDD, IMWUT
 
 # Teaching Experience
 - *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
