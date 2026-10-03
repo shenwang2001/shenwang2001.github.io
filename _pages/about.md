@@ -161,7 +161,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 # Professional Services
 - **TPC Member**
-  - *2026:* ACM MobiCom Artifact Evaluation, IEEE IWCMC, IEEE ISPA
+  - *2026:* ACM MobiCom (AE), IEEE IWCMC, IEEE ISPA
   - *2025:* IEEE ISPA, IEEE SpaCCS
 
 - **Reviewer**
