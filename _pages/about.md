@@ -162,24 +162,18 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 # Professional Services
 **TPC Member**
 
-- IEEE MASS, 2026
-- ACM MobiCom Demos, 2025
+- ACM MobiCom (AE), 2026
+- IEEE IWCMC, 2026
+- IEEE ISPA, 2025-26
+- IEEE SpaCCS, 2025
 
 **Invited Reviewer for**
 
-- ACM MobiCom, 2025-27
-- ACM SenSys, 2024-25
-- ACM MobiSys, 2026
-- ACM/IEEE IPSN, 2024
-- ACM/IEEE IWQoS, 2023-24
-- ACM IoTDI, 2022 & 2024
-- IEEE INFOCOM, 2022-27
-- IEEE ICDCS, 2023-24 & 26
-- IEEE Transactions on Mobile Computing (TMC)
-- IEEE Transactions on Computing (TC)
-- IEEE Transactions on Cognitive Communications and Networking (TCCN)
-- IEEE Transactions on Consumer Electronics (TCE)
-- ACM Transactions on Computer Systems (TOCS)
+- ACM KDD, 2026-27
+- ACM CHI, 2027
+- IEEE TMC, 2026
+- IEEE MASS, 2026
+- ACM IMWUT, 2026
 
 # Teaching Experience
 - *2026:* Wireless networking and mobile computing (COMP 5327) - Teaching Assistant 
