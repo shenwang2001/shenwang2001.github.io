@@ -7,15 +7,15 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class ProfilePhotoConfigurationTests(unittest.TestCase):
-    def test_homepage_uses_the_latest_requested_photo(self):
+    def test_homepage_uses_the_original_full_resolution_seaside_photo(self):
         config = (ROOT / "_config.yml").read_text(encoding="utf-8")
-        self.assertIn('avatar           : "images/profile-2026.png"', config)
+        self.assertIn('avatar           : "images/WechatIMG1956.jpg"', config)
 
-        photo = ROOT / "images" / "profile-2026.png"
-        self.assertEqual(photo.stat().st_size, 312_332)
+        photo = ROOT / "images" / "WechatIMG1956.jpg"
+        self.assertEqual(photo.stat().st_size, 973_095)
         self.assertEqual(
             hashlib.sha256(photo.read_bytes()).hexdigest(),
-            "f0594d53ea0fbb48d4823a9144b4ed009544820fe0eaa98d4f9c2e7260ce432c",
+            "4e61408a38f9818114f4400fa6086c9d83ce910fa6eb7e7e4f10a502e9f82bd4",
         )
 
 
