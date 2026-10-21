@@ -171,7 +171,7 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 
 - ACM KDD, 2026-27
 - ACM CHI, 2027
-- IEEE TMC, 2026
+- IEEE Transactions on Mobile Computing (TMC), 2026
 - IEEE MASS, 2026
 - ACM IMWUT, 2026
 
