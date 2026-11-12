@@ -84,6 +84,12 @@ I am on the 2026–2027 academic job market and am seeking faculty positions in 
 <p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
 </li>
 
+<li>
+<p><span style="display: inline-block; background-color: #356859; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">TMC'26</span> Spatial–Temporal Controllability of UHF RFID Identification Via Controlled Magnetic Fields and Protocol Acceleration</p>
+<p>Donghui Dai, Zhenlin An, Zheng Gong, <strong><u>Shen Wang</u></strong></p>
+<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026. <span style="color: #d32f2f;">(CCF-A Journal)</span></p>
+</li>
+
 
 <li>
 <p><span style="display: inline-block; background-color: #79292f; color: white; padding: 1.5px 6px; border-radius: 3px; font-weight: bold; line-height: 100%;">MobiCom'26</span> City-Scale Radiance-Field Reconstruction via Mixture of Radio Experts</p>

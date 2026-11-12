@@ -137,6 +137,25 @@ class HomepageAcceptanceTests(unittest.TestCase):
         for paper in ["SIGN-RF", "MoRE", "GaRF", "RP-NeRF"]:
             self.assertIn(paper, self.html)
 
+    def test_rfid_tmc_paper_is_listed_with_complete_metadata(self):
+        title = (
+            "Spatial–Temporal Controllability of UHF RFID Identification Via "
+            "Controlled Magnetic Fields and Protocol Acceleration"
+        )
+        self.assertIn(title, self.html)
+        self.assertRegex(
+            self.html,
+            re.compile(
+                r"TMC'26</span>\s*"
+                + re.escape(title)
+                + r"</p>\s*<p>Donghui Dai, Zhenlin An, Zheng Gong, "
+                r"<strong><u>Shen Wang</u></strong></p>\s*"
+                r"<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026\. "
+                r"<span[^>]*>\(CCF-A Journal\)</span>",
+                re.DOTALL,
+            ),
+        )
+
     def test_sidebar_does_not_render_the_seo_description(self):
         self.assertNotIn(
             '<li><div style="white-space: normal; margin-bottom: 1em;">Shen Wang is a Ph.D. candidate',
