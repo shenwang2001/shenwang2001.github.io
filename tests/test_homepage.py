@@ -137,24 +137,32 @@ class HomepageAcceptanceTests(unittest.TestCase):
         for paper in ["SIGN-RF", "MoRE", "GaRF", "RP-NeRF"]:
             self.assertIn(paper, self.html)
 
-    def test_rfid_tmc_paper_is_listed_with_complete_metadata(self):
+    def test_rfid_tmc_paper_follows_kdd_with_complete_metadata(self):
         title = (
             "Spatial–Temporal Controllability of UHF RFID Identification Via "
             "Controlled Magnetic Fields and Protocol Acceleration"
         )
-        self.assertIn(title, self.html)
-        self.assertRegex(
-            self.html,
-            re.compile(
-                r"TMC'26</span>\s*"
-                + re.escape(title)
-                + r"</p>\s*<p>Donghui Dai, Zhenlin An, Zheng Gong, "
-                r"<strong><u>Shen Wang</u></strong></p>\s*"
-                r"<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026\. "
-                r"<span[^>]*>\(CCF-A Journal\)</span>",
-                re.DOTALL,
-            ),
-        )
+        publications = self.html.split('<h1 id="-publications">', 1)[1].split("</ol>", 1)[0]
+        entries = re.findall(r"<li>(.*?)</li>", publications, re.DOTALL)
+        matching_indices = [index for index, entry in enumerate(entries) if title in entry]
+        self.assertEqual(len(matching_indices), 1, "Expected exactly one RFID TMC entry")
+        rfid_index = matching_indices[0]
+        with self.subTest("position"):
+            self.assertGreater(rfid_index, 0)
+            self.assertIn("KDD'26</span> CityWeave:", entries[rfid_index - 1])
+        with self.subTest("metadata"):
+            self.assertRegex(
+                entries[rfid_index],
+                re.compile(
+                    r"TMC'26</span>\s*"
+                    + re.escape(title)
+                    + r"</p>\s*<p>Donghui Dai, Zhenlin An, Zheng Gong, "
+                    r"<strong><u>Shen Wang</u></strong>, <strong>Lei Yang</strong></p>\s*"
+                    r"<p>In <em>IEEE Transactions on Mobile Computing</em>, 2026\. "
+                    r"<span[^>]*>\(CCF-A Journal\)</span>",
+                    re.DOTALL,
+                ),
+            )
 
     def test_sidebar_does_not_render_the_seo_description(self):
         self.assertNotIn(
