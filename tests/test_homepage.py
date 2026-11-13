@@ -262,9 +262,17 @@ class HomepageAcceptanceTests(unittest.TestCase):
             2,
         )
 
-    def test_stale_tracking_integrations_are_not_rendered(self):
+    def test_homepage_loads_the_original_visitor_map(self):
+        maps = [attrs.get("src") for tag, attrs in self.parser.tags
+                if tag == "script" and attrs.get("id") == "mapmyvisitors"]
+        self.assertEqual(
+            maps,
+            ["https://mapmyvisitors.com/map.js?cl=ffffff&w=150&t=n&d="
+             "Hr0iTZqxG74-CCFSZt5uQIaAqhDp9np9FAoGB7OPZSs"],
+        )
+
+    def test_unconfigured_tracking_integrations_are_not_rendered(self):
         script_sources = [attrs.get("src", "") for tag, attrs in self.parser.tags if tag == "script"]
-        self.assertFalse(any("mapmyvisitors" in src for src in script_sources))
         self.assertFalse(any("googletagmanager" in src for src in script_sources))
         self.assertNotIn("gs_data.json", self.html)
 
