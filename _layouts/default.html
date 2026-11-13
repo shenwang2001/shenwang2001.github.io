@@ -26,6 +26,9 @@ layout: compress
         </div>
       </article>
     </div>
+    {% if page.url == "/" %}
+      <script id="mapmyvisitors" defer src="https://mapmyvisitors.com/map.js?cl=ffffff&amp;w=150&amp;t=n&amp;d=Hr0iTZqxG74-CCFSZt5uQIaAqhDp9np9FAoGB7OPZSs"></script>
+    {% endif %}
     {% include scripts.html %}
   </body>
 </html>
