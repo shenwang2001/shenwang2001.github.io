@@ -164,16 +164,18 @@ class HomepageAcceptanceTests(unittest.TestCase):
                 ),
             )
 
-    def test_genrf_project_link_is_in_its_venue_paragraph(self):
+    def test_genrf_project_link_follows_title(self):
         entries = re.findall(r"<li>(.*?)</li>", self.html, re.DOTALL)
         entry = next(item for item in entries if "GenRF: Reconstruct Any Radio Field" in item)
         paragraphs = re.findall(r"<p>(.*?)</p>", entry, re.DOTALL)
-        venue = next(item for item in paragraphs if "In Proc. of" in item)
+        title = next(item for item in paragraphs if "GenRF: Reconstruct Any Radio Field" in item)
         parser = HomepageParser()
-        parser.feed(venue)
+        parser.feed(title)
         links = [link for link in parser.links if link["text"].strip() == "Project page"]
-        self.assertEqual(len(links), 1, "GenRF venue line must include its project link")
-        self.assertEqual(links[0]["attrs"]["href"], "https://shenwang2001.github.io/GenRF/")
+        self.assertEqual(len(links), 1, "GenRF title line must include its project link")
+        self.assertEqual(links[0]["attrs"]["href"], "https://genrf-project.github.io/")
+        self.assertEqual(entry.count(">Project page</a>"), 1)
+        self.assertLess(title.index("Feed-Forward Process"), title.index(">Project page</a>"))
 
     def test_sidebar_does_not_render_the_seo_description(self):
         self.assertNotIn(
